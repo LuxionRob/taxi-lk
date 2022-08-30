@@ -8,7 +8,7 @@
     "watch-css": "node-sass -w src/resources/scss/app.scss src/public/css/app.css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "lint": "prettier --single-quote --tab-width 4 --trailing-comma all --write 'src/{**, **/**}/*.{js, json, scss}'"
+    "lint": "prettier --single-quote --tab-width 4 --trailing-comma all  --no-semi --write 'src/{**, **/**}/*.{js, json, scss}'"
   },
   "author": "",
   "license": "ISC",
