@@ -1,5 +1,5 @@
 class SiteController {
-    index(req, res) {
+    index(    req, res) {
         res.render('home');
     }
 }
