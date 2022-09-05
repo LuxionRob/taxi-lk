@@ -4,11 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "concurrently \"nodemon src/index.js\" \"npm:watch-css\"",
-    "watch-css": "node-sass -w src/resources/scss/app.scss src/public/css/app.css",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install",
-    "lint": "prettier --single-quote --tab-width 4 --trailing-comma all  --no-semi --write 'src/{**, **/**}/*.{js, json, scss}'"
+    "start": "nodemon src/index.js",
+    "watch-css": "node-sass -w src/public/css/app.css src/public/css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -18,11 +16,7 @@
   },
   "devDependencies": {
     "concurrently": "^7.3.0",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
     "morgan": "^1.10.0",
-    "node-sass": "^7.0.1",
-    "nodemon": "^2.0.19",
-    "prettier": "^2.7.1"
+    "nodemon": "^2.0.19"
   }
 }
