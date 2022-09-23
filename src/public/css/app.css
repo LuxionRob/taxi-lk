@@ -152,16 +152,17 @@ a:visited {
 }
 .caption-text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 3rem;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  -webkit-text-stroke: 1px var(--primary-color);
 }
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
+  font-size: 1.8rem;
   padding: 8px 12px;
   position: absolute;
   top: 0;
@@ -192,6 +193,36 @@ a:visited {
     opacity: 1;
   }
 }
+.home-page .car-group {
+  margin-top: 4rem;
+  margin-inline: 16rem;
+  text-align: center;
+}
+.home-page .car-group .title {
+  color: var(--primary-color);
+  font-size: 3rem;
+}
+.home-page .car-group .description {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+.home-page .car-group .image-container {
+  display: flex;
+  justify-content: center;
+}
+.home-page .car-group .image-container .item-container {
+  flex-basis: 30%;
+}
+.home-page .car-group .image-container .item-container img {
+  width: auto;
+  object-fit: scale-down;
+}
+.home-page .car-group .image-container .item-container .caption {
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
 .service-page {
   position: relative;
   margin-top: 4rem;
@@ -221,7 +252,6 @@ a:visited {
 }
 .service-page .service-container .card {
   display: flex;
-  background-color: #eee;
   padding: 1rem 1rem 0;
   border-radius: 0.5rem;
   margin-left: var(--f-gap);
@@ -299,6 +329,21 @@ a:visited {
   color: var(--secondary-color);
   font-size: 1.7rem;
 }
+.service-page .service-info span {
+  display: block;
+  font-size: 1.7rem;
+}
+.service-page .service-info a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: #000;
+}
+.service-page .service-info a:visited {
+  color: #000;
+}
+.service-page .service-info a:hover {
+  color: var(--item-hover-color);
+}
 .service-page .keyword {
   margin-block: 4rem;
 }
@@ -310,6 +355,19 @@ a:visited {
 }
 .service-page .keyword span {
   font-size: 1.4rem;
+}
+.about-us {
+  width: 100vw;
+  text-align: center;
+  margin-block: 5rem;
+  padding-inline: 16rem;
+}
+.about-us .title {
+  color: var(--primary-color);
+  font-size: 3rem;
+}
+.about-us .description {
+  font-size: 1.6rem;
 }
 .advertisement {
   margin-top: 4rem;
@@ -375,11 +433,11 @@ a:visited {
 .hotline-fixed {
   position: fixed;
   color: var(--secondary-color);
-  padding: 1rem;
-  right: 4rem;
-  bottom: 4rem;
-  width: 6rem;
-  height: 6rem;
+  padding: 10px;
+  height: 8vh;
+  right: 5%;
+  bottom: 5%;
+  width: 4%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -389,14 +447,14 @@ a:visited {
 }
 @keyframes shadow-spread {
   0% {
-    box-shadow: 0 0 4px 8px rgba(255, 221, 129, 0.8), 0 0 8px 16px rgba(255, 221, 129, 0.8);
+    box-shadow: 0 0 0.2vw 0.4vw rgba(255, 221, 129, 0.8), 0 0 0.4vw 0.8vw rgba(255, 221, 129, 0.8);
   }
   100% {
     box-shadow: 0 0 0 0 rgba(255, 221, 129, 0.8), 0 0 0 0 rgba(255, 221, 129, 0.8);
   }
 }
 .hotline-fixed img {
-  height: 3rem;
+  height: 3vh;
   animation: shake 0.5s infinite;
 }
 @keyframes shake {

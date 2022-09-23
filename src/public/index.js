@@ -1,6 +1,6 @@
 const $ = document.querySelector.bind(document)
 const $$ = document.querySelectorAll.bind(document)
-const SLIDE_LENGTH = 3
+const SLIDE_LENGTH = 2
 
 const nextBtn = $('.next')
 const prevBtn = $('.prev')
@@ -48,7 +48,6 @@ const slide = {
   automaticallyUpdate: function () {
     setInterval(() => {
       this.next()
-      this.loadCurrentSlide()
     }, 5000)
   },
   start: function () {
