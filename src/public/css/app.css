@@ -192,14 +192,14 @@ a:visited {
     opacity: 1;
   }
 }
-.item-container {
+.service-page {
   position: relative;
   margin-top: 4rem;
-  margin-inline: 16rem;
+  margin-inline: 36rem;
   padding: 2rem 3rem;
   border: 1px solid var(--primary-color);
 }
-.item-container .title {
+.service-page .title {
   position: absolute;
   left: 50%;
   top: 0;
@@ -211,20 +211,15 @@ a:visited {
   padding-inline: 1rem;
   color: var(--primary-color);
 }
-.item-container .description {
-  font-family: 'Roboto Condensed', serif;
-  font-size: 1.5rem;
-  font-weight: 100;
-}
-.item-container .service-container {
+.service-page .service-container {
   --f-columns: 2;
   --f-gap: 2rem;
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc(-1 * var(--f-gap));
-  margin-bottom: calc(-1 * var(--f-gap));
+  margin-inline: calc(-1 * var(--f-gap));
+  padding-inline: 4rem;
 }
-.item-container .service-container .card {
+.service-page .service-container .card {
   display: flex;
   background-color: #eee;
   padding: 1rem 1rem 0;
@@ -232,37 +227,89 @@ a:visited {
   margin-left: var(--f-gap);
   margin-bottom: var(--f-gap);
   width: calc((100% / var(--f-columns) - var(--f-gap)));
+  height: auto;
 }
-.item-container .service-container .card .car-type {
+.service-page .service-container .card .image-container {
+  flex-basis: 33.3%;
+  flex-grow: 0;
+}
+.service-page .service-container .card .image-container img {
+  border: 5px solid #ededed;
+  box-shadow: 2px 2px 4px 2px #ccc;
+}
+.service-page .service-container .card .card-content {
+  margin-left: 2rem;
+  flex-grow: 1;
+  width: 100%;
+}
+.service-page .service-container .card .card-img {
+  width: 22rem;
+  object-fit: scale-down;
+  transition: all 0.5s linear;
+}
+.service-page .service-container .card .car-type {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 2rem;
 }
-.item-container .service-container .card .car-detail {
+.service-page .service-container .card .car-detail {
   font-size: 1.5rem;
   color: #242526;
   opacity: 0.6;
   margin-bottom: 1rem;
 }
-.item-container .service-container .card .more {
+.service-page .service-container .card .more {
   color: red;
   opacity: 0.8;
   text-transform: uppercase;
   font-size: 1.6rem;
   font-weight: bold;
 }
-.item-container .service-container .card .image-container {
-  width: 50%;
-  margin-left: 50%;
+.service-page .splitter {
+  margin-block: 4rem;
+  margin-inline: auto;
+  height: 1px;
+  width: 80rem;
+  background-color: var(--primary-color);
 }
-.item-container .service-container .card .card-img {
-  width: 10rem;
-  transform: translateX(-25%);
-  object-fit: scale-down;
-  transition: all 0.5s linear;
+.service-page .service-content {
+  width: 100%;
 }
-.item-container .service-container .card .card-img:hover {
-  transform: scale(1.1, 1.1);
+.service-page .service-content p {
+  margin-bottom: 2rem;
+}
+.service-page .service-content div,
+.service-page .service-content ul li {
+  font-size: 1.6rem;
+  margin-block: 0.5rem;
+}
+.service-page .service-content ul {
+  margin-left: 2rem;
+}
+.service-page .service-content ul li {
+  list-style-type: disc;
+}
+.service-page .service-content h1 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+.service-page .service-content h2 {
+  color: var(--secondary-color);
+  font-size: 1.7rem;
+}
+.service-page .keyword {
+  margin-block: 4rem;
+}
+.service-page .keyword h1 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+.service-page .keyword span {
+  font-size: 1.4rem;
 }
 .advertisement {
   margin-top: 4rem;
@@ -329,28 +376,27 @@ a:visited {
   position: fixed;
   color: var(--secondary-color);
   padding: 1rem;
-  right: 1.5rem;
-  bottom: 1.5rem;
-  width: 4rem;
-  height: 4rem;
+  right: 4rem;
+  bottom: 4rem;
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #ffaa0b;
   border-radius: 50%;
   animation: shadow-spread 2s ease-in-out infinite alternate;
 }
 @keyframes shadow-spread {
   0% {
-    box-shadow: 0 0 4px 8px rgba(255, 221, 129, 0.5), 0 0 8px 16px rgba(255, 221, 129, 0.5);
+    box-shadow: 0 0 4px 8px rgba(255, 221, 129, 0.8), 0 0 8px 16px rgba(255, 221, 129, 0.8);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(255, 221, 129, 0.5), 0 0 0 0 rgba(255, 221, 129, 0.5);
+    box-shadow: 0 0 0 0 rgba(255, 221, 129, 0.8), 0 0 0 0 rgba(255, 221, 129, 0.8);
   }
 }
-.hotline-fixed div {
-  width: auto;
-  height: 2rem;
-  background-image: url('../icons/phone.svg');
-  background-origin: content-box;
-  background-repeat: no-repeat;
+.hotline-fixed img {
+  height: 3rem;
   animation: shake 0.5s infinite;
 }
 @keyframes shake {
