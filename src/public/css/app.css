@@ -398,7 +398,6 @@ a:visited {
   border-radius: 2rem;
   background-color: #0bc6ff;
 }
-
 .info {
   display: flex;
   justify-content: center;
@@ -438,7 +437,7 @@ a:visited {
   height: 8vh;
   right: 5%;
   bottom: 5%;
-  width: 4%;
+  width: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;
