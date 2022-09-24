@@ -1,0 +1,24 @@
+<div class='page-container'>
+  <div class='title'>Tin tức</div>
+  <div class='details'>
+    {{#each news}}
+      <div class='card'>
+        <div class='image-container'>
+          <a href='tin-tuc'>
+            <img class='card-img' src={{this.imageUrl}} alt={{this.title}} />
+          </a>
+        </div>
+        <div class='card-content'>
+          <div class='news-title'>
+            <a href='tin-tuc'>{{this.title}}</a>
+            <div class='description'>
+              <div>{{this.date}}</div>
+              <div>Lượt xem: {{this.view}}</div>
+              <div>{{this.description}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>
