@@ -6,8 +6,7 @@
   "scripts": {
     "start": "nodemon --watch src/index.js",
     "watch-css": "node-sass -w src/public/css/app.css src/public/css/app.css",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": ""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
