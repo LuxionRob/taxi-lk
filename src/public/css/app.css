@@ -226,7 +226,7 @@ a:visited {
 .service-page {
   position: relative;
   margin-top: 4rem;
-  margin-inline: 36rem;
+  margin-inline: 24rem;
   padding: 2rem 3rem;
   border: 1px solid var(--primary-color);
 }
@@ -248,7 +248,6 @@ a:visited {
   display: flex;
   flex-wrap: wrap;
   margin-inline: calc(-1 * var(--f-gap));
-  padding-inline: 4rem;
 }
 .service-page .service-container .card {
   display: flex;
@@ -304,6 +303,7 @@ a:visited {
 }
 .service-page .service-content {
   width: 100%;
+  margin-inline: 4rem;
 }
 .service-page .service-content p {
   margin-bottom: 2rem;
@@ -345,7 +345,8 @@ a:visited {
   color: var(--item-hover-color);
 }
 .service-page .keyword {
-  margin-block: 4rem;
+  margin-block: 2rem;
+  margin-inline: 4rem;
 }
 .service-page .keyword h1 {
   color: var(--primary-color);
