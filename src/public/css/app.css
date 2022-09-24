@@ -266,7 +266,6 @@ a:visited {
   border: 5px solid #ededed;
   box-shadow: 2px 2px 4px 2px #ccc;
 }
-
 .page-container .details .card .card-content {
   margin-left: 2rem;
   flex-grow: 1;
@@ -367,6 +366,9 @@ a:visited {
 }
 .page-container .keyword span {
   font-size: 1.4rem;
+}
+.page-container .introduce {
+  font-size: 1.6rem;
 }
 .about-us {
   width: 100vw;
