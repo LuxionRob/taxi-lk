@@ -223,14 +223,14 @@ a:visited {
   font-weight: bold;
   letter-spacing: 0.1rem;
 }
-.service-page {
+.page-container {
   position: relative;
   margin-top: 4rem;
   margin-inline: 24rem;
   padding: 2rem 3rem;
   border: 1px solid var(--primary-color);
 }
-.service-page .title {
+.page-container .title {
   position: absolute;
   left: 50%;
   top: 0;
@@ -242,14 +242,14 @@ a:visited {
   padding-inline: 1rem;
   color: var(--primary-color);
 }
-.service-page .service-container {
+.page-container .details {
   --f-columns: 2;
   --f-gap: 2rem;
   display: flex;
   flex-wrap: wrap;
   margin-inline: calc(-1 * var(--f-gap));
 }
-.service-page .service-container .card {
+.page-container .details .card {
   display: flex;
   padding: 1rem 1rem 0;
   border-radius: 0.5rem;
@@ -258,103 +258,114 @@ a:visited {
   width: calc((100% / var(--f-columns) - var(--f-gap)));
   height: auto;
 }
-.service-page .service-container .card .image-container {
+.page-container .details .card .image-container {
   flex-basis: 33.3%;
   flex-grow: 0;
 }
-.service-page .service-container .card .image-container img {
+.page-container .details .card .image-container img {
   border: 5px solid #ededed;
   box-shadow: 2px 2px 4px 2px #ccc;
 }
-.service-page .service-container .card .card-content {
+
+.page-container .details .card .card-content {
   margin-left: 2rem;
   flex-grow: 1;
   width: 100%;
 }
-.service-page .service-container .card .card-img {
+.page-container .details .card-content .news-title a {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.page-container .details .card-content div {
+  font-size: 1.4rem;
+}
+.page-container .details .card-content .description {
+  margin-top: 0.5rem;
+}
+.page-container .details .card .card-img {
   width: 22rem;
   object-fit: scale-down;
   transition: all 0.5s linear;
 }
-.service-page .service-container .card .car-type {
+.page-container .details .card .car-type {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 2rem;
 }
-.service-page .service-container .card .car-detail {
+.page-container .details .card .car-detail {
   font-size: 1.5rem;
   color: #242526;
   opacity: 0.6;
   margin-bottom: 1rem;
 }
-.service-page .service-container .card .more {
+.page-container .details .card .more {
   color: red;
   opacity: 0.8;
   text-transform: uppercase;
   font-size: 1.6rem;
   font-weight: bold;
 }
-.service-page .splitter {
+.page-container .splitter {
   margin-block: 4rem;
   margin-inline: auto;
   height: 1px;
   width: 80rem;
   background-color: var(--primary-color);
 }
-.service-page .service-content {
+.page-container .service-content {
   width: 100%;
   margin-inline: 4rem;
 }
-.service-page .service-content p {
+.page-container .service-content p {
   margin-bottom: 2rem;
 }
-.service-page .service-content div,
-.service-page .service-content ul li {
+.page-container .service-content div,
+.page-container .service-content ul li {
   font-size: 1.6rem;
   margin-block: 0.5rem;
 }
-.service-page .service-content ul {
+.page-container .service-content ul {
   margin-left: 2rem;
 }
-.service-page .service-content ul li {
+.page-container .service-content ul li {
   list-style-type: disc;
 }
-.service-page .service-content h1 {
+.page-container .service-content h1 {
   color: var(--primary-color);
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
   margin-bottom: 0.5rem;
 }
-.service-page .service-content h2 {
+.page-container .service-content h2 {
   color: var(--secondary-color);
   font-size: 1.7rem;
 }
-.service-page .service-info span {
+.page-container .service-info span {
   display: block;
   font-size: 1.7rem;
 }
-.service-page .service-info a {
+.page-container .service-info a {
   text-decoration: none;
   font-size: 1.7rem;
   color: #000;
 }
-.service-page .service-info a:visited {
+.page-container .service-info a:visited {
   color: #000;
 }
-.service-page .service-info a:hover {
+.page-container .service-info a:hover {
   color: var(--item-hover-color);
 }
-.service-page .keyword {
+.page-container .keyword {
   margin-block: 2rem;
   margin-inline: 4rem;
 }
-.service-page .keyword h1 {
+.page-container .keyword h1 {
   color: var(--primary-color);
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
   margin-bottom: 0.5rem;
 }
-.service-page .keyword span {
+.page-container .keyword span {
   font-size: 1.4rem;
 }
 .about-us {
