@@ -1,7 +1,9 @@
 const express = require('express')
 const morgan = require('morgan')
 const { create } = require('express-handlebars')
+const helmet = require('helmet')
 const path = require('path')
+const cosr = require('cosr')
 const app = express()
 const route = require('./routes')
 
@@ -9,6 +11,8 @@ const port = 3000
 const hostname = '127.0.0.1'
 
 app.use(express.static(path.join(__dirname, 'public')))
+app.use(helmet())
+app.use(cors())
 app.use(morgan('combined'))
 
 const hbs = create({
