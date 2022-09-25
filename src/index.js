@@ -3,7 +3,7 @@ const morgan = require('morgan')
 const { create } = require('express-handlebars')
 const helmet = require('helmet')
 const path = require('path')
-const cosr = require('cosr')
+const cors = require('cors')
 const app = express()
 const route = require('./routes')
 
