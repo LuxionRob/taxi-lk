@@ -22,7 +22,7 @@ const hbs = create({
 })
 app.engine('hbs', hbs.engine)
 app.set('view engine', 'hbs')
-app.set('views', path.join(__dirname, 'resources/views'))
+app.set('views', path.join(__dirname, 'resources/views/pages'))
 
 // Route init
 route(app)
