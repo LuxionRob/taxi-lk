@@ -6,11 +6,13 @@ const path = require('path')
 const cors = require('cors')
 const app = express()
 const route = require('./routes')
+const http = require('http')
+const fs = require('fs')
 
 const port = 3000
 const hostname = '127.0.0.1'
 
-app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(process.cwd(), 'dist')))
 app.use(helmet())
 app.use(cors())
 app.use(morgan('combined'))
@@ -20,6 +22,7 @@ const hbs = create({
   layoutsDir: path.join(__dirname, 'resources/views/layouts'),
   partialsDir: [path.join(__dirname, 'resources/views/partials')],
 })
+
 app.engine('hbs', hbs.engine)
 app.set('view engine', 'hbs')
 app.set('views', path.join(__dirname, 'resources/views/pages'))
