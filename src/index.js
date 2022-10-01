@@ -10,7 +10,7 @@ const http = require('http')
 const fs = require('fs')
 require('dotenv').config()
 const port = process.env.PORT || 3000
-const hostname = 'taxi-lk-mzcb-9yu6w1jqv-luxionrob.vercel.app'
+const hostname = process.env.HOST_ENV || 'localhost'
 
 app.use(express.static(path.join(process.cwd(), 'dist')))
 app.use(helmet())
