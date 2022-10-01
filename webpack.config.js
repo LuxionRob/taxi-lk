@@ -8,10 +8,8 @@ const nodeExternals = require('webpack-node-externals')
 const express = require('express')
 const { create } = require('express-handlebars')
 const app = express()
-require('dotenv').config()
 
-const isProduction = process.env.NODE_ENV == 'production'
-const hostname = process.env.HOST_ENV
+const isProduction = 'production'
 
 const stylesHandler = isProduction ? MiniCssExtractPlugin.loader : 'style-loader'
 
@@ -63,7 +61,6 @@ const config = {
   },
   devServer: {
     open: true,
-    host: hostname,
   },
   resolveLoader: {
     modules: ['node_modules', path.resolve(__dirname, 'loaders')],

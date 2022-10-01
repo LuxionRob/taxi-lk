@@ -7,7 +7,6 @@ const app = express()
 const route = require('./routes')
 const http = require('http')
 const fs = require('fs')
-require('dotenv').config()
 const port = process.env.PORT || 3000
 const hostname = process.env.HOST_ENV || 'localhost'
 
