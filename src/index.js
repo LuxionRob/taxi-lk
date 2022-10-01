@@ -19,6 +19,6 @@ app.use(morgan('combined'))
 // Route init
 route(app)
 
-app.listen(3000, hostname, () => {
+app.listen(port, hostname, () => {
   console.log(`Server is listening at http://${hostname}:${port}`)
 })
