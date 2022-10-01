@@ -73,9 +73,10 @@ const config = {
   plugins: [
     new CopyPlugin({
       patterns: [
-        { from: 'src/public/css', to: 'assets/css' },
-        { from: 'src/public/img', to: 'assets/images' },
-        { from: 'src/public/icons', to: 'assets/icons' },
+        { from: 'src/public/css', to: 'css' },
+        { from: 'src/public/img', to: 'images' },
+        { from: 'src/public/icons', to: 'icons' },
+        { from: 'src/public/js', to: 'js' },
       ],
     }),
   ],
