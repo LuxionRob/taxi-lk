@@ -8,9 +8,9 @@ const app = express()
 const route = require('./routes')
 const http = require('http')
 const fs = require('fs')
-
-const port = 3000
-const hostname = '127.0.0.1'
+require('dotenv').config()
+const port = process.env.PORT || 3000
+const hostname = 'taxi-lk-mzcb-9yu6w1jqv-luxionrob.vercel.app'
 
 app.use(express.static(path.join(process.cwd(), 'dist')))
 app.use(helmet())
