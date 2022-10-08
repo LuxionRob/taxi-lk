@@ -5,7 +5,7 @@ const path = require('path')
 const cors = require('cors')
 const app = express()
 const route = require('./routes')
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8080
 
 app.use(express.static(path.join(process.cwd(), 'dist')))
 app.use(helmet())
