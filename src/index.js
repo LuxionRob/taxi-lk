@@ -7,7 +7,7 @@ const app = express()
 const route = require('./routes')
 const port = process.env.PORT || 8080
 
-app.use(express.static(path.join(process.cwd(), 'dist')))
+app.use(express.static(path.join(__dirname, 'static')))
 app.use(helmet())
 app.use(cors())
 app.use(morgan('combined'))

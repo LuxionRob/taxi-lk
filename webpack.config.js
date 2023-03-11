@@ -70,10 +70,10 @@ const config = {
   plugins: [
     new CopyPlugin({
       patterns: [
-        { from: 'src/public/css', to: 'css' },
-        { from: 'src/public/img', to: 'images' },
-        { from: 'src/public/icons', to: 'icons' },
-        { from: 'src/public/js', to: 'js' },
+        { from: 'src/public/css', to: 'static/css' },
+        { from: 'src/public/img', to: 'static/images' },
+        { from: 'src/public/icons', to: 'static/icons' },
+        { from: 'src/public/js', to: 'static/js' },
       ],
     }),
   ],
