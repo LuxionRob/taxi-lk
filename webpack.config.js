@@ -74,6 +74,8 @@ const config = {
         { from: 'src/public/img', to: 'static/images' },
         { from: 'src/public/icons', to: 'static/icons' },
         { from: 'src/public/js', to: 'static/js' },
+        { from: 'robots.txt', to: 'robots.txt' },
+        { from: 'sitemap.xml', to: 'sitemap.xml' },
       ],
     }),
   ],
