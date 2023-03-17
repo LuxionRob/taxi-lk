@@ -1,7 +1,11 @@
 const path = require('path')
 class IntroductionController {
   index(req, res) {
-    res.sendFile(path.join(__dirname, 'html/gioi-thieu.html'))
+    if (process.env.MODE === 'production') {
+      res.sendFile(path.join(__dirname, 'html/gioi-thieu.html'))
+    } else if (process.env.MODE === 'development') {
+      res.render('gioi-thieu.hbs')
+    }
   }
 }
 
