@@ -5,6 +5,7 @@ const serviceRouter = require('./service')
 const popularRouteRouter = require('./popularRoute')
 const contactRouter = require('./contact')
 const controller = require('./controller')
+const path = require('path')
 
 function route(app) {
   controller
@@ -14,6 +15,9 @@ function route(app) {
   app.get('/tin-tuc', newsRouter)
   app.get('/tuyen-duong-pho-bien', popularRouteRouter)
   app.get('/', siteRouter)
+  app.get('/sitemap.xml', function (req, res) {
+    res.sendFile(path.join(__dirname, 'sitemap.xml'))
+  })
 }
 
 module.exports = route
