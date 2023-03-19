@@ -1,0 +1,107 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url("/Images/bg.png") ;
+    background-size: 350px;
+    background-position: center;
+}
+*{
+    box-sizing: border-box; 
+}
+
+
+.page-not-found
+{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page-not-found img
+{
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.page-not-found h1
+{
+    color: #3b3a39;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    margin: 10px 0px 0px 0px;
+}
+.page-not-found p
+{
+    color: #808080;
+    font-size: 1rem;
+    width: 60%;
+    text-align: center;
+    margin: 5px;
+    font-weight: 300;
+}
+.page-not-found p a
+{
+    color: #FFbe0b;
+    font-weight: 600;
+    text-decoration: none;
+}
+.page-not-found button
+{   
+    width: 140px;
+    height: 40px;
+    margin: 10px;
+    background-color: #2f2e41;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+    border: 2px;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+}
+button:hover{
+    background-color: #FFbe0b;
+    transition: all ease 0.2;
+    color: black;
+}
+
+@media(max-width: 900px)
+{
+    .page-not-found img 
+    {
+        height: 180px;
+    }
+    .page-not-found p
+    {
+        width: 100%;
+    }    
+}
+
+@media(max-width: 600px)
+{
+    nav
+    {
+        padding: 10px;
+    }
+    .page-not-found 
+    {
+        height: 180px;
+    }
+    .page-not-found img
+    {
+       height: 120px;
+    }    
+    .page-not-found h1 
+    {
+        font-size: 1.4rem;
+    }
+    .page-not-found p
+    {
+        font-size: 90%;
+    }
+}
