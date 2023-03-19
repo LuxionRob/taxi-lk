@@ -54,13 +54,15 @@ function contextCallback(resourcePath, view) {
 }
 
 const config = {
-  entry: path.join(__dirname, 'src/index.js'),
+  entry: [path.join(__dirname, 'src/index.js'), 'webpack-hot-middleware/client?reload=true'],
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'main.js',
+    filename: 'index.js',
   },
   devServer: {
-    open: true,
+    static: {
+      directory: path.join(__dirname, 'dist'),
+    },
   },
   resolveLoader: {
     modules: ['node_modules', path.resolve(__dirname, 'loaders')],
@@ -71,9 +73,11 @@ const config = {
     new CopyPlugin({
       patterns: [
         { from: 'src/public/css', to: 'static/css' },
-        { from: 'src/public/img', to: 'static/images' },
+        { from: 'src/public/images', to: 'static/images' },
         { from: 'src/public/icons', to: 'static/icons' },
         { from: 'src/public/js', to: 'static/js' },
+        { from: 'robots.txt', to: 'robots.txt' },
+        { from: 'sitemap.xml', to: 'sitemap.xml' },
       ],
     }),
   ],
@@ -113,12 +117,13 @@ module.exports = () => {
       new MiniCssExtractPlugin({
         filename: isProduction ? '[name].[contenthash].css' : '[name].css',
         chunkFilename: '[id].[hash].css',
-      }),
+      })
     )
 
     config.plugins.push(new WorkboxWebpackPlugin.GenerateSW())
   } else {
     config.mode = 'development'
+    config.plugins.push(new webpack.HotModuleReplacementPlugin())
   }
   return config
 }

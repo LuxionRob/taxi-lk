@@ -57,4 +57,6 @@ const slide = {
   },
 }
 
-slide.start()
+if (slideImage) {
+  slide.start()
+}
