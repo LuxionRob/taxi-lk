@@ -3,11 +3,7 @@ require('dotenv').config()
 
 class ServiceController {
   index(req, res) {
-    if (process.env.MODE === 'production') {
-      res.sendFile(path.join(__dirname, 'html/404.html'))
-    } else if (process.env.MODE === 'development') {
-      res.render('404.hbs')
-    }
+    res.render('404.hbs', { layout: 'no-footer' })
   }
 }
 
