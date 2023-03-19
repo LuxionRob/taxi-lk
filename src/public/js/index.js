@@ -60,3 +60,10 @@ const slide = {
 if (slideImage) {
   slide.start()
 }
+
+const menuNavbar = $('.menu-navbar')
+const toggleButton = $('.toggle-button')
+
+toggleButton.addEventListener('click', function () {
+  menuNavbar.classList.toggle('active')
+})
