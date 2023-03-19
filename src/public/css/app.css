@@ -54,7 +54,7 @@ a:visited {
   margin-inline: 5rem;
 }
 .navbar-contact .phone-link::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 50%;
@@ -97,7 +97,7 @@ a:visited {
   background-color: #ffffff;
 }
 .menu-navbar .menu-item::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 0;
@@ -107,7 +107,7 @@ a:visited {
   background-color: #eee;
 }
 .menu-navbar .menu-item:last-child::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   right: 0;
@@ -429,7 +429,7 @@ a:visited {
   color: #242526;
 }
 .info .contact-info span {
-  font-family: "Roboto Condensed", serif;
+  font-family: 'Roboto Condensed', serif;
   font-size: 1.3rem;
 }
 .footer {
@@ -470,12 +470,10 @@ a:visited {
 }
 @keyframes shadow-spread {
   0% {
-    box-shadow: 0 0 0.2vw 0.4vw rgba(255, 221, 129, 0.8),
-      0 0 0.4vw 0.8vw rgba(255, 221, 129, 0.8);
+    box-shadow: 0 0 0.2vw 0.4vw rgba(255, 221, 129, 0.8), 0 0 0.4vw 0.8vw rgba(255, 221, 129, 0.8);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(255, 221, 129, 0.8),
-      0 0 0 0 rgba(255, 221, 129, 0.8);
+    box-shadow: 0 0 0 0 rgba(255, 221, 129, 0.8), 0 0 0 0 rgba(255, 221, 129, 0.8);
   }
 }
 .hotline-fixed img {

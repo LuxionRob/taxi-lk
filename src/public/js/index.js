@@ -1,69 +1,69 @@
-const $ = document.querySelector.bind(document);
-const $$ = document.querySelectorAll.bind(document);
-const SLIDE_LENGTH = 2;
+const $ = document.querySelector.bind(document)
+const $$ = document.querySelectorAll.bind(document)
+const SLIDE_LENGTH = 2
 
-const nextBtn = $(".next");
-const prevBtn = $(".prev");
-const slideImage = $(".slide-image");
-const slideImages = $$(".slide-image");
-const dots = $$(".dot");
+const nextBtn = $('.next')
+const prevBtn = $('.prev')
+const slideImage = $('.slide-image')
+const slideImages = $$('.slide-image')
+const dots = $$('.dot')
 
 const slide = {
   currentSlideIndex: 0,
   loadCurrentSlide: function () {
     slideImages.forEach((image) => {
-      image.style.display = "none";
-    });
+      image.style.display = 'none'
+    })
     dots.forEach((dot) => {
-      dot.classList.remove("active");
-    });
-    slideImages[this.currentSlideIndex].style.display = "block";
-    dots[this.currentSlideIndex].classList.add("active");
+      dot.classList.remove('active')
+    })
+    slideImages[this.currentSlideIndex].style.display = 'block'
+    dots[this.currentSlideIndex].classList.add('active')
   },
   next: function () {
-    this.currentSlideIndex = (this.currentSlideIndex + 1) % SLIDE_LENGTH;
+    this.currentSlideIndex = (this.currentSlideIndex + 1) % SLIDE_LENGTH
   },
   prev: function () {
-    this.currentSlideIndex--;
+    this.currentSlideIndex--
     if (this.currentSlideIndex < 0) {
-      this.currentSlideIndex = SLIDE_LENGTH - 1;
+      this.currentSlideIndex = SLIDE_LENGTH - 1
     }
   },
   handleEvent: function () {
     nextBtn.onclick = () => {
-      this.next();
-      this.loadCurrentSlide();
-    };
+      this.next()
+      this.loadCurrentSlide()
+    }
     prevBtn.onclick = () => {
-      this.prev();
-      this.loadCurrentSlide();
-    };
+      this.prev()
+      this.loadCurrentSlide()
+    }
     dots.forEach((dot, index) => {
       dot.onclick = () => {
-        this.currentSlideIndex = index;
-        this.loadCurrentSlide();
-      };
-    });
+        this.currentSlideIndex = index
+        this.loadCurrentSlide()
+      }
+    })
   },
   automaticallyUpdate: function () {
     setInterval(() => {
-      this.next();
-    }, 5000);
+      this.next()
+    }, 5000)
   },
   start: function () {
-    this.loadCurrentSlide();
-    this.handleEvent();
-    this.automaticallyUpdate();
+    this.loadCurrentSlide()
+    this.handleEvent()
+    this.automaticallyUpdate()
   },
-};
-
-if (slideImage) {
-  slide.start();
 }
 
-const menuNavbar = $(".menu-navbar");
-const toggleButton = $(".toggle-button");
+if (slideImage) {
+  slide.start()
+}
 
-toggleButton.addEventListener("click", function () {
-  menuNavbar.classList.toggle("active");
-});
+const menuNavbar = $('.menu-navbar')
+const toggleButton = $('.toggle-button')
+
+toggleButton.addEventListener('click', function () {
+  menuNavbar.classList.toggle('active')
+})
