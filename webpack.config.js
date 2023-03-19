@@ -54,7 +54,7 @@ function contextCallback(resourcePath, view) {
 }
 
 const config = {
-  entry: [path.join(__dirname, 'src/index.js'), 'webpack-hot-middleware/client?reload=true'],
+  entry: [path.join(__dirname, 'src/index.js'), 'webpack-hot-middleware'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
