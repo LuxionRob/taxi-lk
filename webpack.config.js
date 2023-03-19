@@ -34,7 +34,7 @@ const config = {
         { from: 'src/public/js', to: 'static/js' },
         { from: 'src/resources', to: 'static/resources' },
         { from: 'robots.txt', to: 'robots.txt' },
-        { from: 'sitemap.xml', to: 'sitemap.xml' },
+        { from: 'sitemap.xml', to: 'static/sitemap.xml' },
       ],
     }),
   ],
