@@ -18,12 +18,7 @@ module.exports = function (content) {
     }
 
     const slug =
-      '// Module\n' +
-      'var code = ' +
-      JSON.stringify(html) +
-      ';\n' +
-      '// Exports\n' +
-      'module.exports = code;'
+      '// Module\n' + 'var code = ' + JSON.stringify(html) + ';\n' + '// Exports\n' + 'module.exports = code;'
 
     loaderAsyncCallback(null, slug)
   })
