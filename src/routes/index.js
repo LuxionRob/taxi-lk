@@ -16,9 +16,6 @@ function route(app) {
   app.get('/tin-tuc', newsRouter)
   app.get('/tuyen-duong-pho-bien', popularRouteRouter)
   app.get('/', siteRouter)
-  app.get('/sitemap.xml', function (req, res) {
-    res.sendFile(path.join(__dirname, 'sitemap.xml'))
-  })
   app.get('*', errorRouter)
 }
 
