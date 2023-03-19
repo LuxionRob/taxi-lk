@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
   --primary-color: #ffbe0b;
   --secondary-color: #565656;
@@ -20,7 +21,7 @@ body {
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 a:visited {
   color: inherit;
@@ -706,5 +707,69 @@ a:visited {
   .about-us,
   .home-page .car-group {
     width: 100rem;
+  }
+}
+
+.page-not-found {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -60%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.page-not-found img {
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.page-not-found h1 {
+  color: #3b3a39;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+  margin: 10px 0px 0px 0px;
+}
+.page-not-found p,
+.page-not-found a {
+  font-size: 2rem;
+  color: #808080;
+  width: 80%;
+  text-align: center;
+  margin: 5px;
+  font-weight: 300;
+}
+.page-not-found p a {
+  color: #ffbe0b;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .page-not-found img {
+    height: 180px;
+  }
+  .page-not-found p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-not-found nav {
+    padding: 10px;
+  }
+  .page-not-found {
+    height: 180px;
+  }
+  .page-not-found img {
+    height: 120px;
+  }
+  .page-not-found h1 {
+    font-size: 2.5rem;
+  }
+  .page-not-found p {
+    font-size: 2rem;
   }
 }
