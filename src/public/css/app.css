@@ -413,7 +413,7 @@ a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 4rem;
+  margin: 4rem 0;
 }
 .info img {
   height: 9rem;
@@ -429,8 +429,7 @@ a:visited {
   color: #242526;
 }
 .info .contact-info span {
-  font-family: 'Roboto Condensed', serif;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 .footer {
   color: #fff;
