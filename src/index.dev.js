@@ -22,12 +22,12 @@ app.use(morgan('combined'))
 app.use(
   webpackDevMiddleware(compiler, {
     publicPath: 'auto',
-  }),
+  })
 )
 app.use(
   webpackHotMiddleware(compiler, {
     timeout: 1000,
-  }),
+  })
 )
 
 const hbs = create({

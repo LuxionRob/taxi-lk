@@ -73,7 +73,7 @@ const config = {
     new CopyPlugin({
       patterns: [
         { from: 'src/public/css', to: 'static/css' },
-        { from: 'src/public/img', to: 'static/images' },
+        { from: 'src/public/images', to: 'static/images' },
         { from: 'src/public/icons', to: 'static/icons' },
         { from: 'src/public/js', to: 'static/js' },
         { from: 'robots.txt', to: 'robots.txt' },
@@ -117,7 +117,7 @@ module.exports = () => {
       new MiniCssExtractPlugin({
         filename: isProduction ? '[name].[contenthash].css' : '[name].css',
         chunkFilename: '[id].[hash].css',
-      }),
+      })
     )
 
     config.plugins.push(new WorkboxWebpackPlugin.GenerateSW())
