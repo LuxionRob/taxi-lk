@@ -1,7 +1,7 @@
-const path = require('path')
+const newsData = require('../db/news')
 class NewsController {
   index(req, res) {
-    res.render('tin-tuc.hbs')
+    res.render('tin-tuc.hbs', { news: newsData })
   }
 }
 
