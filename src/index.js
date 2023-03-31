@@ -5,7 +5,6 @@ const path = require('path')
 const cors = require('cors')
 const { create } = require('express-handlebars')
 const app = express()
-require('dotenv').config()
 const route = require('./routes')
 const port = process.env.PORT || 8080
 
