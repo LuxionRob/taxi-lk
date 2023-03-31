@@ -189,33 +189,33 @@ a:visited {
     opacity: 1;
   }
 }
-.home-page .car-group {
+main .car-group {
   width: 120rem;
   margin: 4rem auto 0;
   text-align: center;
 }
-.home-page .car-group .title {
+main .car-group .title {
   margin-bottom: 1rem;
   color: var(--primary-color);
   font-size: 3rem;
 }
-.home-page .car-group .description {
+main .car-group .description {
   font-size: 1.6rem;
   line-height: 1.5;
   margin-bottom: 2rem;
 }
-.home-page .car-group .image-container {
+main .car-group .image-container {
   display: flex;
   justify-content: center;
 }
-.home-page .car-group .image-container .item-container {
+main .car-group .image-container .item-container {
   flex-basis: 30%;
 }
-.home-page .car-group .image-container .item-container img {
+main .car-group .image-container .item-container img {
   width: auto;
   object-fit: scale-down;
 }
-.home-page .car-group .image-container .item-container .caption {
+main .car-group .image-container .item-container .caption {
   font-size: 1.8rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
@@ -238,6 +238,10 @@ a:visited {
   background-color: white;
   padding-inline: 1rem;
   color: var(--primary-color);
+}
+.page-container .details-lh
+{
+  font-size: 1.6rem;
 }
 .page-container .details {
   --f-columns: 2;
@@ -491,13 +495,13 @@ a:visited {
   }
 }
 @media screen and (max-width: 739px) {
-  .home-page .car-group .image-container {
+  main .car-group .image-container {
     flex-direction: column;
   }
-  .home-page .car-group .image-container .item-container {
+  main .car-group .image-container .item-container {
     margin-bottom: 4rem;
   }
-  .home-page .car-group .image-container .item-container:last-child {
+  main .car-group .image-container .item-container:last-child {
     margin-bottom: -4rem;
   }
   .page-container {
@@ -507,7 +511,7 @@ a:visited {
     width: unset;
   }
   .about-us,
-  .home-page .car-group {
+  main .car-group {
     width: 60rem;
   }
   .menu-navbar {
@@ -553,27 +557,27 @@ a:visited {
   .menu.show-menu .menu-item:hover .menu-link {
     color: #fff;
   }
-  .home-page .car-group {
+  main .car-group {
     width: 90%;
     margin: 5rem 2.5rem;
     text-align: center;
   }
-  .home-page .car-group .description {
+  main .car-group .description {
     font-size: 1.4rem;
   }
-  .home-page .car-group .image-container {
+  main .car-group .image-container {
     display: flex;
     flex-direction: column;
   }
-  .home-page .car-group .image-container .item-container {
+  main .car-group .image-container .item-container {
     flex-basis: 100%;
     margin-bottom: 2rem;
   }
-  .home-page .car-group .image-container .item-container img {
+  main .car-group .image-container .item-container img {
     width: 100%;
     object-fit: cover;
   }
-  .home-page .car-group .image-container .item-container .caption {
+  main .car-group .image-container .item-container .caption {
     font-size: 1.6rem;
     margin-top: 1rem;
   }
@@ -593,11 +597,11 @@ a:visited {
   .menu-navbar.active {
     display: block;
   }
-  .home-page .car-group .title {
+  main .car-group .title {
     font-size: 2rem;
     margin-bottom: 0.5rem;
   }
-  .home-page .car-group .description {
+  main .car-group .description {
     font-size: 1.2rem;
     margin-bottom: 1rem;
   }
@@ -676,52 +680,52 @@ a:visited {
 }
 
 @media screen and (min-width: 740px) and (max-width: 1023px) {
-  .home-page .car-group .image-container .item-container {
+  main .car-group .image-container .item-container {
     margin-bottom: 3rem;
   }
-  .home-page .car-group .image-container .item-container:last-child {
+  main .car-group .image-container .item-container:last-child {
     margin-bottom: -3rem;
   }
   .page-container {
     width: 80rem;
   }
   .about-us,
-  .home-page .car-group {
+  main .car-group {
     width: 80rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .home-page .car-group .image-container .item-container {
+  main .car-group .image-container .item-container {
     margin-bottom: 2rem;
   }
-  .home-page .car-group .image-container .item-container:last-child {
+  main .car-group .image-container .item-container:last-child {
     margin-bottom: -2rem;
   }
   .page-container {
     width: 100rem;
   }
   .about-us,
-  .home-page .car-group {
+  main .car-group {
     width: 100rem;
   }
 }
 
-.page-not-found {
+section .tag-error {
   position: absolute;
   left: 50%;
-  top: 55%;
+  top: 65%;
   transform: translate(-50%, -60%);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.page-not-found img {
+section .tag-error img {
   height: 400px;
   background-color: rgba(255, 255, 255, 0.5);
 }
-.page-not-found h1 {
+section .tag-error h1 {
   color: #3b3a39;
   font-weight: 700;
   text-transform: uppercase;
@@ -729,8 +733,8 @@ a:visited {
   font-size: 2.5rem;
   margin: 10px 0px 0px 0px;
 }
-.page-not-found p,
-.page-not-found a {
+section .tag-error p,
+section .tag-error a {
   font-size: 2rem;
   color: #808080;
   width: 80%;
@@ -738,35 +742,35 @@ a:visited {
   margin: 5px;
   font-weight: 300;
 }
-.page-not-found p a {
-  color: #ffbe0b;
+section .tag-error p a {
+  color: #ffbe0b !important;
   font-weight: 600;
   text-decoration: none;
 }
 
 @media (max-width: 900px) {
-  .page-not-found img {
+  section .tag-error img {
     height: 180px;
   }
-  .page-not-found p {
+  section .tag-error p {
     width: 100%;
   }
 }
 
 @media (max-width: 600px) {
-  .page-not-found nav {
+  section .tag-error nav {
     padding: 10px;
   }
-  .page-not-found {
+  section .tag-error {
     height: 180px;
   }
-  .page-not-found img {
+  section .tag-error img {
     height: 120px;
   }
-  .page-not-found h1 {
+  section .tag-error h1 {
     font-size: 2.5rem;
   }
-  .page-not-found p {
+  section .tag-error p {
     font-size: 2rem;
   }
 }
