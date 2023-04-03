@@ -462,10 +462,12 @@ main .car-group .image-container .item-container .caption {
   border-radius: 50%;
   animation: shadow-spread 2s ease-in-out infinite alternate;
 }
-.toggle-button {
-  width: 100%;
-  text-align: left;
+.button_cover{
   background-color: var(--primary-color);
+}
+.toggle-button {
+  background-color: var(--primary-color);
+  text-align: left;
   border: none;
   color: #fff;
   font-size: 2.6rem;
@@ -498,6 +500,19 @@ main .car-group .image-container .item-container .caption {
   }
 }
 @media screen and (max-width: 739px) {
+  .flex {
+    flex-direction: column;
+  }
+  .navbar-contact {
+    display: flex;
+    justify-content: center;
+  }
+  .phone-link {
+    margin: 0 1rem;
+  }
+  .thumbnail {
+    height: 4.5rem;
+  }
   main .car-group .image-container {
     flex-direction: column;
   }
@@ -583,6 +598,25 @@ main .car-group .image-container .item-container .caption {
   main .car-group .image-container .item-container .caption {
     font-size: 1.6rem;
     margin-top: 1rem;
+  }
+  .navbar-contact {
+    margin-left: 0;
+  }
+
+  .navbar-contact .phone-link {
+    margin-inline: 2rem;
+  }
+
+  .navbar-contact .phone-link::before {
+    transform: translate(-100%, -50%);
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .navbar{
+    display: flex;
+    flex-direction: column;
   }
   .about-us {
     width: 90%;
