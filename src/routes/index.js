@@ -10,6 +10,13 @@ const errorRouter = require('./error404')
 const path = require('path')
 
 function route(app) {
+  app.use(function (req, res, next) {
+    res.setHeader(
+      'Content-Security-Policy',
+      "script-src 'unsafe-eval' 'unsafe-inline' https://tagmanager.google.com/ https://www.googletagmanager.com/ https://maps.googleapis.com;"
+    )
+    next()
+  })
   controller
   app.get('/gioi-thieu', introductionRouter)
   app.get('/dich-vu', serviceRouter)
@@ -18,7 +25,7 @@ function route(app) {
   app.get('/tin-tuc/:slug', newsDetailRouter)
   app.get('/tuyen-duong-pho-bien', popularRouteRouter)
   app.get('/', siteRouter)
-  // app.get('*', errorRouter)
+  app.get('*', errorRouter)
 }
 
 module.exports = route
