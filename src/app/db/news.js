@@ -45,8 +45,6 @@ function newsData() {
       description: 'Khu du lịch Đại Nam - Điểm hẹn cuối tuần siêu lý tưởng',
       image: 'https://taxilongkhanh.vn/thumbs/400x280x1/upload/baiviet/news6-7366.webp',
     },
-  ].map((item) => {
-    return { ...item, slug: '/tin-tuc/' + convertToSlug(item.title) }
-  })
+  ]
 }
 module.exports = newsData
