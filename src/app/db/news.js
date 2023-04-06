@@ -1,49 +1,18 @@
-const convertToSlug = require('../../utils/slug')
-
 function newsData() {
   return [
     {
-      title: 'Khu du lịch Đại Nam - Điểm hẹn cuối tuần siêu lý tưởng',
-      date: '05/03/2022',
+      title: 'Review Hồ Trị An camping đang hot ở Đồng Nai',
+      date: '02/04/2023',
       view: '72',
-      description: 'Khu du lịch Đại Nam - Điểm hẹn cuối tuần siêu lý tưởng',
-      image: 'https://taxilongkhanh.vn/thumbs/400x280x1/upload/baiviet/news6-7366.webp',
+      description: 'Hồ Trị An là hồ nước nhân tạo, chứa nguồn nước của đập thủy điện Trị An.',
+      image: '/images/news/ho-tri-an.webp',
     },
     {
-      title: 'Khu du lịch Đại Nam - Điểm hẹn cuối tuần siêu lý tưởng',
-
-      date: '05/03/2022',
+      title: 'Các lí do nên chọn đội Taxi Long Khánh',
+      date: '02/04/2023',
       view: '72',
-      description: 'Khu du lịch Đại Nam - Điểm hẹn cuối tuần siêu lý tưởng',
-      image: 'https://taxilongkhanh.vn/thumbs/400x280x1/upload/baiviet/news6-7366.webp',
-    },
-    {
-      title: 'Khu du lịch Đại Nam - Điểm hẹn cuối tuần siêu lý tưởng',
-      date: '05/03/2022',
-      view: '72',
-      description: 'Khu du lịch Đại Nam - Điểm hẹn cuối tuần siêu lý tưởng',
-      image: 'https://taxilongkhanh.vn/thumbs/400x280x1/upload/baiviet/news6-7366.webp',
-    },
-    {
-      title: 'Khu du lịch Đại Nam - Điểm hẹn cuối tuần siêu lý tưởng',
-      date: '05/03/2022',
-      view: '72',
-      description: 'Khu du lịch Đại Nam - Điểm hẹn cuối tuần siêu lý tưởng',
-      image: 'https://taxilongkhanh.vn/thumbs/400x280x1/upload/baiviet/news6-7366.webp',
-    },
-    {
-      title: 'Khu du lịch Đại Nam - Điểm hẹn cuối tuần siêu lý tưởng',
-      date: '05/03/2022',
-      view: '72',
-      description: 'Khu du lịch Đại Nam - Điểm hẹn cuối tuần siêu lý tưởng',
-      image: 'https://taxilongkhanh.vn/thumbs/400x280x1/upload/baiviet/news6-7366.webp',
-    },
-    {
-      title: 'Khu du lịch Đại Nam - Điểm hẹn cuối tuần siêu lý tưởng',
-      date: '05/03/2022',
-      view: '72',
-      description: 'Khu du lịch Đại Nam - Điểm hẹn cuối tuần siêu lý tưởng',
-      image: 'https://taxilongkhanh.vn/thumbs/400x280x1/upload/baiviet/news6-7366.webp',
+      description: '',
+      image: '/images/news/taxi-long-khanh-taxi-dong-nai.webp',
     },
   ]
 }
