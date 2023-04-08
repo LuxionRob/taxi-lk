@@ -22,5 +22,56 @@ const newsDetail = [
       },
     ],
   },
+  {
+    title: 'Review Hồ Trị An camping đang hot ở Đồng Nai',
+    date: '02/04/2023',
+    view: 72,
+    section: [
+      {
+        subtitle: 'Hồ Trị An là hồ nước nhân tạo, chứa nguồn nước của đập thủy điện Trị An.',
+        'description-first':
+          'Tuy là hồ nước nhân tạo nhưng hồ Trị An vẫn mang cho mình một nét đẹp riêng biệt, không lẫn vào đâu được mặt hồ yên ả cùng dòng nước trong veo đủ để trở thành tấm gương soi, phản chiếu hình ảnh trời xanh và mây trắng.',
+        image: IMAGE_BASE_URL + 'ho-tri-an.webp',
+        caption: 'Hồ Trị An là hồ nước nhân tạo',
+        'description-second':
+          'Hồ Trị An được người ta nhận định là nơi “hồ xanh nắng vàng” vì dưới sự thấm đẫm của dòng nước, ánh nắng chiếu vào làm hiện lên ánh vàng thải hết mặt hồ.Hòa cùng một chút làn gió mát, khung cảnh Điều này chắc chắn sẽ làm nao lòng những du khách.',
+      },
+      {
+        'description-first':
+          'Khi đến du lịch hồ Trị An, bạn sẽ thấy được vẻ đẹp mộc mạc của nơi đây, hồ Trị An nép mình giữa sự hoang sơ của vùng ngoại thành, tựa như tấm lụa mềm trải dài giữa dòng chảy của mảnh đất Đồng Nai. Nơi đây không gian rộng, thoáng đãng, không khí cũng rất dễ chịu, cực kỳ thích hợp cho những du khách tham gia du lịch bụi hồ Trị An và ở lại qua đêm. Họ có thể ngắm bầu trời trọn sao về đêm, ngọn lửa, phần thưởng thức các món nướng, cùng nhau kể chuyện, trò chơi xung quanh ngọn lửa,…',
+        image: IMAGE_BASE_URL + 'leu-cam-trai-ho-tri-an.webp',
+        caption: 'Lều cắm trại hồ Trị An',
+        'description-second':
+          'Tuy nhiên, đối với khách đi phượt hồ Trị An (hay du lịch bụi hồ Trị An) thì xe máy là phương tiện tiện ích được ứng dụng rất phổ biến, với nhóm du lịch đông người và nhiều đồ đạc thì ô tô sẽ là lựa chọn phù hợp. Và đội Taxi Long Khánh là lựa chọn đáng tin cậy đối với khách hàng. Đặc biệt là các khách hàng ở nội thành TP Long Khánh muốn đi du lịch ở Hồ Trị An. Một hãng taxi được rất nhiều người yêu thích, với đội ngũ nhân viên nhiệt tình, đầy kinh nghiệm và dịch vụ rất tốt.',
+      },
+      {
+        'description-first':
+          'Hãy đến với chúng tôi để có những chuyến đi du lịch không chỉ là hồ Trị An mà còn những địa điểm hấp dẫn khác đang chào đón mọi người.',
+      },
+    ],
+  },
+  {
+    title: 'Các lí do nên chọn đội Taxi Long Khánh',
+    date: '02/04/2023',
+    view: 72,
+    section: [
+      {
+        subtitle: 'Lí do nên chọn đội Taxi Long Khánh',
+        'description-first':
+          'Việc di chuyển đến và đi từ Thành Phố Long Khánh, Đồng Nai bằng taxi đưa đón đã không còn quá xa lạ đối với hành khách, hãy cùng BestPrice điểm qua những ưu điểm khi đặt đội taxi Long Khánh dưới đây nhé:',
+        image: IMAGE_BASE_URL + 'taxi-long-khanh-taxi-dong-nai.webp',
+        caption: 'Taxi Long Khánh - Taxi Đồng Nai',
+        list: [
+          'Di chuyển nhanh chóng là ưu điểm đầu tiên phải kể đến khi đặt đội taxi Long Khánh. Bạn sẽ tiết kiệm được kha khá thời gian di chuyển để đến sân bay làm thủ tục kịp thời, cũng như rời khỏi sân bay mà không cần phải chờ đợi như đi xe bus hoặc các phương tiện khác.',
+          'Sử dụng taxi sẽ có ưu điểm tiện lợi hơn khi hành khách có thể thoải mái để hành lý của mình ở cốp xe.',
+          'Hành khách sẽ dễ dàng đặt taxi bằng cách nhấc máy gọi nhanh đến hãng taxi hoặc đặt qua trang website.',
+          'Di chuyển bằng taxi sẽ có không gian riêng tư, thoải mái hơn so với sử dụng các phương tiện khác.',
+          'Đối với hành khách ở các tỉnh thành ngoài Long Khánh có thể gọi đội taxi Long Khánh đưa đón tận nơi, thay vì phải trung chuyển nhiều lần xe.',
+          'Đội taxi Long Khánh có đội ngũ nhân viên được tuyển chọn một cách kỹ càng, vì an toàn và tính mạng của khách hàng là điều trên hết, nên chúng tôi rất kỹ càng trong khâu tuyển chọn và training.',
+        ],
+        'description-second': 'Sứ mệnh của chúng tôi là mang lại cho khách hàng những trải nghiệm tuyệt vời nhất.',
+      },
+    ],
+  },
 ]
 module.exports = newsDetail

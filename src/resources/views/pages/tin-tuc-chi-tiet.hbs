@@ -3,13 +3,27 @@
     <h2 class='title'>
       {{title}}
     </h2>
-    <span>Date: {{date}}</span>
-    <span>Views: {{view}}</span>
+    <div class='sub-info'>
+      <span>Date: {{date}}</span>
+      <span>Views: {{view}}</span>
+    </div>
     <article>
       {{#each section}}
-        <h3>{{inc @key}}. {{subtitle}}</h3>
+        {{#if subtitle}}
+          <h3>{{inc @key}}. {{subtitle}}</h3>
+        {{/if}}
         <section>{{description-first}}</section>
-        <img src='{{image}}' alt='{{subtitle}}, Đội taxi Long Khánh' />
+        {{#if list}}
+          <ul>
+            {{#each list}}
+              <li>{{this}}</li>
+            {{/each}}
+          </ul>
+        {{/if}}
+        <div class='news-detail-image'>
+          <img src='{{image}}' alt='{{title}}, Đội taxi Long Khánh' />
+          <figcaption>{{caption}}</figcaption>
+        </div>
         <section>{{description-second}}</section>
       {{/each}}
     </article>
