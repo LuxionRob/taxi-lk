@@ -33,6 +33,7 @@ const hbs = create({
   partialsDir: path.join(__dirname, 'resources/views/partials'),
   extname: '.hbs',
   layoutsDir: path.join(__dirname, 'resources/views/layouts'),
+  helpers: require('./config/handlebars-helpers'),
 })
 app.engine('hbs', hbs.engine)
 app.set('view engine', 'hbs')

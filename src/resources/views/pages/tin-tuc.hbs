@@ -6,16 +6,16 @@
         <div class='card'>
           <div class='image-container'>
             <a href='/tin-tuc'>
-              <img class='card-img' src='/images/news/khu-du-lich-dai-nam.webp' alt='khu-du-lich-dai-nam.webp' />
+              <img class='card-img' src='{{image}}' alt='{{title}}' />
             </a>
           </div>
           <div class='card-content'>
             <div class='news-title'>
-              <a href='{{slug}}'>{{title}}</a>
+              <a href='/tin-tuc/{{convertToSlug title}}'>{{title}}</a>
               <div class='description'>
-                <div>05/03/2022</div>
-                <div>Lượt xem: 76</div>
-                <div>Khu du lịch Đại Nam - Điểm hẹn cuối tuần siêu lý tưởng</div>
+                <div>{{date}}</div>
+                <div>Lượt xem: {{view}}</div>
+                <div>{{description}}</div>
               </div>
             </div>
           </div>

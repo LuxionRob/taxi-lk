@@ -16,10 +16,13 @@ const hbs = create({
   partialsDir: path.join(__dirname, 'static/resources/views/partials'),
   extname: '.hbs',
   layoutsDir: path.join(__dirname, 'static/resources/views/layouts'),
+  helpers: require('./config/handlebars-helpers'),
 })
+
 app.engine('hbs', hbs.engine)
 app.set('view engine', 'hbs')
 app.set('views', path.join(__dirname, 'static/resources/views/pages'))
+
 // Route init
 route(app)
 

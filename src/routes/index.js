@@ -13,7 +13,7 @@ function route(app) {
   app.use(function (req, res, next) {
     res.setHeader(
       'Content-Security-Policy',
-      "script-src 'unsafe-eval' 'unsafe-inline' https://tagmanager.google.com/ https://www.googletagmanager.com/ https://maps.googleapis.com https://doitaxilongkhanh.com;"
+      "script-src 'unsafe-eval' 'unsafe-inline' https://tagmanager.google.com/ https://www.googletagmanager.com/ https://maps.googleapis.com https://doitaxilongkhanh.com https://static.hotjar.com;"
     )
     next()
   })
