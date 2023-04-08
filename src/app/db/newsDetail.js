@@ -10,6 +10,7 @@ const newsDetail = [
         subtitle: 'Giới thiệu về khu du lịch Đại Nam',
         'description-first':
           'Khu du lịch Đại Nam Bình Dương được khởi công xây dựng vào ngày 10/3/1999. Công trình đầu tiên được xây dựng là núi Bảo Sơn có chiều dài là 252m, phần đỉnh cao nhất là 65.8m. Những con số này khiến núi Bảo Sơn trở thành ngọn núi nhân tạo dài nhất Việt Nam từ trước đến nay. Tại ngọn núi này có một bảo tháp nổi bật được xây dựng vào năm 2000 với mục đích phát triển du lịch tâm linh cho khu du lịch. Khi bảo tháp này được xây dựng xong cùng lúc đó các công trình tâm linh khác được hoàn thành như: đền Đại Nam, Dòng Bảo Giang, hồ Ngọc Bích, quảng trường Đại Nam.',
+        image: IMAGE_BASE_URL + 'du-lich-dai-nam-768x576.webp',
         'description-second':
           'Đến năm 2005, công trình Kim Điện cũng được khánh thành, hợp nhất thành một quần thể du lịch tâm linh – nghỉ dưỡng vô cùng độc đáo. Những công trình khác như khu vui chơi giải trí, vườn thú, khu nghỉ dưỡng, siêu thị được hoàn thiện gần đây nhằm mục đích tạo điểm đến vui chơi cho khách du lịch. Xuyên suốt thời gian 10 năm xây dựng, từng hạng mục công trình đã được hình thành và trở khu du lịch Đại Nam được khánh thành vào năm 2008. Tổng kinh phí xây dựng khu du lịch này lên đến hàng ngàn tỷ đồng với quy mô của khu du lịch rộng đến 450 héc ta. Các công trình, hạng mục được thi công của khu du lịch này còn đạt được nhiều kỷ lục Việt Nam và thế giới. Mỗi một địa điểm trong khu du lịch này đều mang đến những câu chuyện thú vị và nét văn hóa độc đáo riêng.',
       },
@@ -17,8 +18,59 @@ const newsDetail = [
         subtitle: 'Đại Nam ở đâu?',
         'description-first':
           'Khu du lịch này tọa lạc tại thành phố Thủ Dầu Một của tỉnh Bình Dương nằm cách thành phố Hồ Chí Minh hơn 40km. Khu du lịch Đại Nam còn được biết đến với tên gọi là lạc cảnh Đại Nam Văn Hiến. Khu du lịch này chính thức đi vào hoạt động từ năm 2008 là địa điểm du lịch thu hút nhiều khách trong và ngoài nước đến tham quan.',
-        image: IMAGE_BASE_URL + '...',
+        image: IMAGE_BASE_URL + 'Khu-du-lich-Dai-Nam-1.webp',
         'description-second': '',
+        caption: 'Khu du lịch Đại Nam',
+      },
+      {
+        subtitle: 'Di chuyển đến Đại Nam như thế nào?',
+        'description-first':
+          'Với khoảng cách chỉ 40km từ thành phố Hồ Chí Minh nên du khách có thể dễ dàng di chuyển đến đây bằng nhiều loại phương tiện khác nhau. Mỗi một loại phương tiện đều có những ưu điểm riêng biệt, bạn có thể lựa chọn dịch vụ taxi Long Khánh của chúng tôi.',
+      },
+      {
+        subtitle: 'Nên đến Đại Nam vào thời điểm nào?',
+        'description-first':
+          'Theo như chia sẻ của nhiều người thì có 2 thời điểm lý tưởng mà bạn có thể đến tham quan Đại Nam là dịp đầu năm (trước và sau Tết Nguyên Đán) và từ tháng 7 đến tháng 10. Vào dịp đầu năm, Đại Nam thường tổ chức các hoạt động lễ hội tổ hoành tráng. Còn vào những tháng hè lại thì đó chính là dịp hoàn hảo để các gia đình vui chơi “giải nhiệt” nắng nóng, oi bức. Tuy nhiên, bạn cũng có thể ghé đến Đại Nam vào bất kỳ dịp nào trong năm.',
+      },
+      {
+        subtitle: 'Các địa điểm tham quan ở Đại Nam',
+        sublist: [
+          {
+            title: 'Kim Điện',
+            description:
+              'Đền Đại Nam hay còn được biết đến với tên gọi là Kim Điện là một trong những công trình chính của khu du lịch này và được chăm chút xây dựng ròng rã trong suốt 3 năm. Nhìn từ bên ngoài, mọi người cũng thấy được sự tráng lệ nguy nga của ngôi điện mang đến cho bạn sự choáng ngợp bởi độ hoành tráng của Kim Điện.',
+            image: IMAGE_BASE_URL + 'kim-dien-dai-nam-768x576.webp',
+          },
+          {
+            title: 'Núi Bảo Sơn',
+            description:
+              'Nổi bật nhất và cũng là công trình được xây dựng đầu tiên chính là núi Bảo Sơn. Công trình này bao gồm 5 ngọn núi với độ cao lên tới 65.8m và được ghi nhận là dãy núi nhân tạo cao nhất Việt Nam. Bên trong dãy núi này là những bức tượng được xây dựng hoành tráng như tượng Bồ Tát, Phật Di Lặc.',
+            image: IMAGE_BASE_URL + 'nui-bao-son-dai-nam-768x480.webp',
+          },
+          {
+            title: 'Vườn thú',
+            description:
+              'Vườn thú Đại Nam mới được xây dựng trong vài năm trở lại đây. Khu vườn thú này có rất nhiều động vật được nuôi trong một không gian rộng lớn để các loại thú rừng có một môi trường sống tốt nhất không bị gò bó và tạo cảm giác như đang ở trong tự nhiên. Nơi này cũng sở hữu nhiều loại động vật trắng quý hiếm như: sư tử trắng, hưu trắng, khổng tước trắng…',
+            image: IMAGE_BASE_URL + 'vuon-thu-dai-nam-768x525.webp',
+          },
+        ],
+      },
+      {
+        title: 'Đại Nam có gì chơi?',
+        sublist: [
+          {
+            title: 'Biển nhân tạo',
+            description:
+              'Khu biển nhân tạo tại khu du lịch Đại Nam là công trình biển nhân tạo lớn nhất Việt Nam được xây dựng với quy mô vô cùng rộng lớn. Từng chi tiết của công trình này cũng được thiết kế vô cùng tinh tế với những hàng dừa bao quanh. Biển nhân tạo này có nồng độ muối được kiểm soát ở mức độ trung bình không quá mặn.',
+            image: IMAGE_BASE_URL + 'bien-nhan-tao-dai-nam-768x512.webp',
+          },
+          {
+            title: 'Nông trại càng cua',
+            description:
+              'Ngoài ra, tại khu du lịch này còn có các hoạt động trải nghiệm dành cho các bé thiếu nhi như bắt cá, thu hoạch rau, chèo xuồng, bơi thúng, làm gốm… Khu nông trại phức hợp này sẽ mang lại cho các bé cảm giác mới mẻ với những hoạt động lần đầu được trải nghiệm.',
+            image: IMAGE_BASE_URL + 'nong-trai-cang-cua-dai-nam-768x432.webp',
+          },
+        ],
       },
     ],
   },

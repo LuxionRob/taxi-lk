@@ -830,6 +830,9 @@ main .car-group .image-container .item-container .caption {
 .news-detail-page li + li {
   margin-bottom: 0.2rem;
 }
+.news-detail-page h4 {
+  margin-left: 0.5rem;
+}
 @media (max-width: 900px) {
   .page-not-found img {
     height: 180px;

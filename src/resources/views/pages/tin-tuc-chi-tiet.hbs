@@ -9,10 +9,28 @@
     </div>
     <article>
       {{#each section}}
+
+        {{!-- Mục con --}}
         {{#if subtitle}}
           <h3>{{inc @key}}. {{subtitle}}</h3>
         {{/if}}
-        <section>{{description-first}}</section>
+        {{#if sublist}}
+          {{#each sublist}}
+            <h4>{{inc @../key}}.{{inc @key}} {{title}}</h4>
+            <section>{{description}}</section>
+            <div class='news-detail-image'>
+              <img src='{{image}}' alt='{{title}}, Đội taxi Long Khánh - Đồng Nai' />
+              <figcaption>{{title}}</figcaption>
+            </div>
+          {{/each}}
+        {{/if}}
+
+        {{!-- Nội dung đầu --}}
+        {{#if description-first}}
+          <section>{{description-first}}</section>
+        {{/if}}
+
+        {{!-- Danh sách --}}
         {{#if list}}
           <ul>
             {{#each list}}
@@ -20,11 +38,19 @@
             {{/each}}
           </ul>
         {{/if}}
-        <div class='news-detail-image'>
-          <img src='{{image}}' alt='{{title}}, Đội taxi Long Khánh' />
-          <figcaption>{{caption}}</figcaption>
-        </div>
-        <section>{{description-second}}</section>
+
+        {{!-- Ảnh --}}
+        {{#if image}}
+          <div class='news-detail-image'>
+            <img src='{{image}}' alt='{{title}}, Đội taxi Long Khánh - Đồng Nai' />
+            <figcaption>{{subtitle}}</figcaption>
+          </div>
+        {{/if}}
+
+        {{!-- Nội dung sau --}}
+        {{#if description-second}}
+          <section>{{description-second}}</section>
+        {{/if}}
       {{/each}}
     </article>
   {{/with}}
