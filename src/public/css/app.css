@@ -237,7 +237,7 @@ main .car-group .image-container .item-container .caption {
   letter-spacing: 0.1rem;
 }
 .page-container {
-  width: 120rem;
+  width: 100%;
   position: relative;
   margin: 4rem auto 0;
   padding: 2rem 3rem;
@@ -330,7 +330,7 @@ main .car-group .image-container .item-container .caption {
 }
 .page-container .service-content {
   width: 100%;
-  margin-inline: 4rem;
+  margin-inline: 2rem;
 }
 .page-container .service-content p {
   margin-bottom: 2rem;
@@ -537,7 +537,7 @@ main .car-group .image-container .item-container .caption {
     margin-bottom: -4rem;
   }
   .page-container {
-    width: 40rem;
+    max-width: 40rem;
   }
   .page-container .details .card {
     width: unset;
@@ -731,19 +731,133 @@ main .car-group .image-container .item-container .caption {
 }
 
 @media screen and (min-width: 740px) and (max-width: 1023px) {
+  .flex {
+    flex-direction: column;
+  }
+  .navbar-contact {
+    display: flex;
+    justify-content: center;
+  }
+  .phone-link {
+    margin: 0 1rem;
+  }
+  .thumbnail {
+    height: 4.5rem;
+  }
+  main .car-group .image-container {
+    flex-direction: column;
+  }
   main .car-group .image-container .item-container {
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
   }
   main .car-group .image-container .item-container:last-child {
-    margin-bottom: -3rem;
+    margin-bottom: -4rem;
   }
-  .page-container {
-    width: 80rem;
+  .page-container {/* Change to desired width percentage for smaller screens */
+    max-width: 70rem;
+  }
+  .page-container .details .card {
+    width: unset;
   }
   .about-us,
   main .car-group {
-    width: 80rem;
+    width: 60rem;
   }
+  main .car-group {
+    width: 90%;
+    margin: 5rem 2.5rem;
+    text-align: center;
+  }
+  main .car-group p {
+    font-size: 1.4rem;
+  }
+  main .car-group .image-container {
+    display: flex;
+    flex-direction: column;
+  }
+  main .car-group .image-container .item-container {
+    flex-basis: 100%;
+    margin-bottom: 2rem;
+  }
+  main .car-group .image-container .item-container img {
+    width: 100%;
+    object-fit: cover;
+  }
+  main .car-group .image-container .item-container .caption {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+  }
+  .navbar-contact {
+    margin-left: 0;
+  }
+
+  .navbar-contact .phone-link {
+    margin-inline: 2rem;
+  }
+
+  .navbar-contact .phone-link::before {
+    transform: translate(-100%, -50%);
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .navbar{
+    display: flex;
+    flex-direction: column;
+  }
+  .about-us {
+    width: 90%;
+    text-align: center;
+    margin-top: 10;
+    margin-block: 3rem;
+}
+
+.about-us .about-us-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us .about-us-content .about-us-image {
+    margin-bottom: 2rem;
+}
+
+.about-us .about-us-content .about-us-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-us .about-us-content .about-us-description {
+    font-size: 1.4rem;
+}
+
+.footer .footer-columns {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .footer-columns .footer-column {
+    margin-bottom: 2rem;
+}
+
+.footer .footer-columns .footer-column:last-child {
+    margin-bottom: 0;
+}
+
+.footer .footer-columns .footer-column .footer-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.footer .footer-columns .footer-column .footer-link {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer .footer-columns .footer-column .footer-link:last-child {
+    margin-bottom: 0;
+}
 }
 
 @media screen and (min-width: 1024px) {
