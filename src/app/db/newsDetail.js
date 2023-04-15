@@ -125,13 +125,11 @@ const newsDetail = [
       },
     ],
   },
-  ////
   {
     title: 'Đội Taxi Long Khánh thông báo tuyển dụng tài xế lái xe tại Long Khánh',
     date: '14/04/2023',
     view: 21,
     section: [
-      
       {
         subtitle: 'Lý do',
         'description-first':
@@ -163,12 +161,31 @@ const newsDetail = [
       {
         subtitle: 'Ứng tuyển',
         'description-first':
-        
           'Vui lòng gửi thông tin cá nhân và kinh nghiệm lái xe thông qua email hoặc liên hệ trực tiếp với chúng tôi để được phỏng vấn.',
       },
       {
         'description-first':
-        'Chúng tôi rất mong nhận được sự quan tâm và ứng tuyển của các bạn. Cảm ơn đã đọc thông báo!',
+          'Chúng tôi rất mong nhận được sự quan tâm và ứng tuyển của các bạn. Cảm ơn đã đọc thông báo!',
+      },
+    ],
+  },
+  {
+    title: 'Giới thiệu Đại Chủng Viện Long Khánh - Dịch vụ Taxi Long Khánh chất lượng cao',
+    date: '15/04/2023',
+    view: 26,
+    section: [
+      {
+        'description-first': 'Giới thiệu Đại Chủng Viện Long Khánh - Dịch vụ Taxi Long Khánh chất lượng cao',
+        image: IMAGE_BASE_URL + 'dai-chung-vien-02.webp',
+        'description-second':
+          'Với đội ngũ tài xế chuyên nghiệp, tận tình và giàu kinh nghiệm, dịch vụ taxi Long Khánh của Đại Chủng Viện Long Khánh cam kết sẽ đưa bạn đến đích một cách an toàn và nhanh chóng. Không chỉ vậy, các xe taxi của chúng tôi còn được trang bị đầy đủ các tiện nghi hiện đại như máy lạnh, âm thanh, ghế da, wifi miễn phí và các thiết bị giải trí khác để mang đến cho quý khách những trải nghiệm tốt nhất.',
+      },
+      {
+        'description-first':
+          'Dịch vụ taxi Long Khánh của Đại Chủng Viện Long Khánh luôn sẵn sàng phục vụ quý khách trong mọi nhu cầu di chuyển như đưa đón sân bay, đi du lịch, tham quan, công tác hay đi chơi cuối tuần. Đội ngũ tài xế của chúng tôi luôn sẵn sàng tư vấn và hỗ trợ quý khách để đưa ra lựa chọn xe phù hợp nhất với nhu cầu của mình.',
+        image: IMAGE_BASE_URL + 'goc.webp',
+        'description-second':
+          'Với mong muốn đem đến cho khách hàng những trải nghiệm tuyệt vời nhất, Đại Chủng Viện Long Khánh cam kết sẽ mang đến cho quý khách dịch vụ taxi Long Khánh chất lượng cao, an toàn, nhanh chóng và tiện lợi. Hãy liên hệ với chúng tôi để được đặt xe và trải nghiệm dịch vụ tốt nhất.',
       },
     ],
   },
