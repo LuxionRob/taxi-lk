@@ -125,5 +125,52 @@ const newsDetail = [
       },
     ],
   },
+  ////
+  {
+    title: 'Đội Taxi Long Khánh thông báo tuyển dụng tài xế lái xe tại Long Khánh',
+    date: '14/04/2023',
+    view: 21,
+    section: [
+      
+      {
+        subtitle: 'Lý do',
+        'description-first':
+          'Nhằm đáp ứng nhu cầu di chuyển tăng cao của khách hàng tại Long Khánh, Đồng Nai. Hãng taxi Long Khánh chúng tôi hiện đang cần tuyển dụng các tài xế để có thể đáp ứng nhu cầu nhân lực với các chính sách cực kỳ ưu đãi.',
+      },
+      {
+        subtitle: 'Yêu cầu',
+        list: [
+          'Nam, tuổi từ 20 đến 45.',
+          'Có bằng lái xe hạng B2 trở lên.',
+          'Có kinh nghiệm lái xe trên 2 năm.',
+          'Có khả năng làm việc trong môi trường áp lực cao, chịu được độ mệt mỏi khi lái xe liên tục trong thời gian dài.',
+          'Có tinh thần trách nhiệm và sự chăm chỉ.',
+        ],
+      },
+      {
+        subtitle: 'Chính sách ưu đãi',
+        list: [
+          'Đóng ký quỹ ban đầu: 1.000.000 đồng đối với lái xe mới/có kinh nghiệm/tái ký.',
+          'Hỗ trợ doanh thu 2 tháng đầu tiên đối với lái xe mới (tháng thứ 1: hỗ trợ 10%, tháng thứ 2 hỗ trợ 5%). Hình thức hỗ trợ cộng trực tiếp vào lương/thu nhập hàng ngày của tài xế.',
+          'Thu nhập hấp dẫn: Lương cơ bản + tiền tips + hoa hồng.',
+          'Được trang bị đầy đủ: đồng phục (áo + quần + cravat), thẻ ATM ngân hàng.',
+          'Được hưởng các chế độ bảo hiểm đầy đủ.',
+          'Được đào tạo và hỗ trợ trong quá trình làm việc.',
+          'Được làm việc trong môi trường chuyên nghiệp, văn minh, có nhiều cơ hội thăng tiến.',
+          'Có chế độ thưởng nóng cho người giới thiệu lái xe cho công ty. (1.000.000 – 2.000.000 đồng/người).',
+        ],
+      },
+      {
+        subtitle: 'Ứng tuyển',
+        'description-first':
+        
+          'Vui lòng gửi thông tin cá nhân và kinh nghiệm lái xe thông qua email hoặc liên hệ trực tiếp với chúng tôi để được phỏng vấn.',
+      },
+      {
+        'description-first':
+        'Chúng tôi rất mong nhận được sự quan tâm và ứng tuyển của các bạn. Cảm ơn đã đọc thông báo!',
+      },
+    ],
+  },
 ]
 module.exports = newsDetail
