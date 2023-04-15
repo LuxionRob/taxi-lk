@@ -23,6 +23,13 @@ function newsData() {
       description: '',
       image: IMAGE_BASE_URL + 'taxi-long-khanh-taxi-dong-nai.webp',
     },
+    {
+      title: 'Đội Taxi Long Khánh thông báo tuyển dụng tài xế lái xe tại Long Khánh',
+      date: '14/04/2023',
+      view: '21',
+      description: 'Nhằm đáp ứng nhu cầu di chuyển tăng cao của khách hàng tại Long Khánh, Đồng Nai. Hãng taxi...',
+      image: IMAGE_BASE_URL + 'Tuyen-dung.webp',
+    },
   ]
 }
 module.exports = newsData
