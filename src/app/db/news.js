@@ -30,6 +30,14 @@ function newsData() {
       description: 'Nhằm đáp ứng nhu cầu di chuyển tăng cao của khách hàng tại Long Khánh, Đồng Nai. Hãng taxi...',
       image: IMAGE_BASE_URL + 'Tuyen-dung.webp',
     },
+    {
+      title: 'Giới thiệu Đại Chủng Viện Long Khánh - Dịch vụ Taxi Long Khánh chất lượng cao',
+      date: '15/04/2023',
+      view: '26',
+      description:
+        'Đại Chủng Viện Long Khánh là một địa chỉ nổi tiếng tại thành phố Long Khánh với hơn 10 năm kinh nghiệm trong lĩnh vực giáo dục...',
+      image: IMAGE_BASE_URL + 'dai-chung-vien-Long-Khanh.webp',
+    },
   ]
 }
 module.exports = newsData
