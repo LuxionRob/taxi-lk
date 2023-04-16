@@ -803,7 +803,7 @@ main .car-group .image-container .item-container .caption {
     padding: 0.5rem;
     font-size: 1.5rem;
   }
-  .navbar{
+  .navbar {
     display: flex;
     flex-direction: column;
   }
@@ -812,53 +812,53 @@ main .car-group .image-container .item-container .caption {
     text-align: center;
     margin-top: 10;
     margin-block: 3rem;
-}
+  }
 
-.about-us .about-us-content {
+  .about-us .about-us-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+  }
 
-.about-us .about-us-content .about-us-image {
+  .about-us .about-us-content .about-us-image {
     margin-bottom: 2rem;
-}
+  }
 
-.about-us .about-us-content .about-us-title {
+  .about-us .about-us-content .about-us-title {
     font-size: 2rem;
     margin-bottom: 1rem;
-}
+  }
 
-.about-us .about-us-content .about-us-description {
+  .about-us .about-us-content .about-us-description {
     font-size: 1.4rem;
-}
+  }
 
-.footer .footer-columns {
+  .footer .footer-columns {
     flex-direction: column;
     align-items: center;
-}
+  }
 
-.footer .footer-columns .footer-column {
+  .footer .footer-columns .footer-column {
     margin-bottom: 2rem;
-}
+  }
 
-.footer .footer-columns .footer-column:last-child {
+  .footer .footer-columns .footer-column:last-child {
     margin-bottom: 0;
-}
+  }
 
-.footer .footer-columns .footer-column .footer-title {
+  .footer .footer-columns .footer-column .footer-title {
     font-size: 1.8rem;
     margin-bottom: 1rem;
-}
+  }
 
-.footer .footer-columns .footer-column .footer-link {
+  .footer .footer-columns .footer-column .footer-link {
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
-}
+  }
 
-.footer .footer-columns .footer-column .footer-link:last-child {
+  .footer .footer-columns .footer-column .footer-link:last-child {
     margin-bottom: 0;
-}
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -992,3 +992,28 @@ main .car-group .image-container .item-container .caption {
     width: 90%;
   }
 }
+
+.feedback-container {
+  display: flex;
+}
+
+.button-feedback {
+  background-color: #ffbe0b;
+  position: fixed;
+  right: 0;
+  width: 50px;
+  height: 120px;
+  opacity: 0.25;
+  border-radius: 5px;
+}
+
+.rotate {
+  transform: rotate(-90deg);
+  font-size: 15px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* translateY(-50%) translateX(-50%) */
