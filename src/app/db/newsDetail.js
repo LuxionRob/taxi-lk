@@ -189,5 +189,31 @@ const newsDetail = [
       },
     ],
   },
+  {
+    title: 'Đội Taxi Long Khánh - Lựa chọn tuyệt vời cho người đi làm',
+    date: '18/04/2023',
+    view: 139,
+    section: [
+      {
+        subtitle: 'Đội Taxi Long Khánh - Lựa chọn tuyệt vời cho người đi làm',
+        image: IMAGE_BASE_URL + 'di-lam.webp',
+        'description-first':
+          'Đối với người đi làm, thời gian là vô cùng quan trọng và không phải lúc nào đi bằng phương tiện cá nhân cũng là lựa chọn tối ưu. Đội Taxi - Taxi Long Khánh giá rẻ - Chúng tôi là đơn vị gọi xe hàng đầu tại Long Khánh - Cẩm Mỹ - Dầu Giây - Xuân Lộc, mang lại cho khách hàng 1 dịch vụ tuyệt vời nhất. Đội xe đông đảo đa dạng và hiện đại. Đảm bảo cam kết xe đời mới.',
+      },
+      {
+        list: [
+          'Tiện lợi: Bạn có thể gọi taxi bất cứ khi nào bạn cần, mà không cần phải đợi như khi sử dụng phương tiện công cộng. Bạn cũng không cần phải lo lắng về vấn đề đỗ xe và tìm đường đi đến điểm đến.',
+          'An toàn: Taxi là một trong những phương tiện an toàn nhất để di chuyển, đặc biệt là khi bạn đi một mình hoặc đi vào ban đêm. Hầu hết các tài xế taxi đã được huấn luyện để lái xe an toàn và họ cũng biết cách xử lý các tình huống khẩn cấp.',
+          'Thoải mái: Khi đi taxi, bạn có thể ngồi thoải mái và không cần phải lo lắng về việc lái xe. Bạn cũng có thể làm việc, trả lời email hoặc thư điện tử, đọc sách, nghe nhạc hoặc nghỉ ngơi.',
+          'Điểm đến chính xác: Nếu bạn đi taxi, bạn không cần phải lo lắng về việc đến nhầm địa chỉ hoặc bị lạc đường. Tài xế taxi có thể sẽ biết đường đi đến điểm đến của bạn hoặc sử dụng GPS để đến được đúng địa chỉ.',
+          'Tốc độ: Trong một số trường hợp, đi taxi có thể nhanh hơn so với các phương tiện khác, đặc biệt là trong các thành phố có tình trạng kẹt xe nghiêm trọng.',
+        ],
+      },
+      {
+        'description-first':
+          'Tóm lại, Đội Taxi Long Khánh chúng tôi là một lựa chọn tiện lợi, an toàn và thoải mái để di chuyển.',
+      },
+    ],
+  },
 ]
 module.exports = newsDetail

@@ -31,12 +31,12 @@ function newsData() {
       image: IMAGE_BASE_URL + 'Tuyen-dung.webp',
     },
     {
-      title: 'Giới thiệu Đại Chủng Viện Long Khánh - Dịch vụ Taxi Long Khánh chất lượng cao',
-      date: '15/04/2023',
-      view: '26',
+      title: 'Đội Taxi Long Khánh - Lựa chọn tuyệt vời cho người đi làm',
+      date: '18/04/2023',
+      view: '139',
       description:
-        'Đại Chủng Viện Long Khánh là một địa chỉ nổi tiếng tại thành phố Long Khánh với hơn 10 năm kinh nghiệm trong lĩnh vực giáo dục...',
-      image: IMAGE_BASE_URL + 'dai-chung-vien-Long-Khanh.webp',
+        'Đối với người đi làm, thời gian là vô cùng quan trọng và không phải lúc nào đi bằng phương tiện cá nhân cũng là lựa chọn tối ưu...',
+      image: IMAGE_BASE_URL + 'di-lam.webp',
     },
   ]
 }
