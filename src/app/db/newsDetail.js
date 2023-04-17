@@ -189,5 +189,33 @@ const newsDetail = [
       },
     ],
   },
+  {
+    title: 'Nghề tài xế và những khó khăn',
+    date: '16/04/2023',
+    view: 38,
+    section: [
+      {
+        'description-first':
+          'Rong ruổi trên khắp các cung đường kèm theo việc phải chịu áp lực lớn vì tập trung nhiều giờ liền dẫn đến căng thẳng, mệt mỏi… Đây là tâm sự của hầu hết mọi tài xế khi nói đến công việc của mình.',
+        image: IMAGE_BASE_URL + 'ttxvn-grab.webp',
+        'description-second':
+          'Nghề tài xế (lái xe) đã xuất hiện từ rất lâu đời, qua bao nhiêu thời kỳ phát triển kinh tế đất nước, nghề lái xe vẫn luôn đứng vững và ngày một phát triển hơn. Nghề lái xe đã đi vào thơ ca hào hùng trong công cuộc giải phóng dân tộc. Nghề lái xe luôn được tôn vinh nhiều người còn ví von là các anh hùng xa lộ. ',
+      },
+      {
+        'description-first':
+          'Với cánh tài xế đường dài với mỗi chuyến hành trình kéo dài từ 3-5 ngày, sự dẻo dai về sức khỏe là rất cần thiết. Nếu không có sự dẻo dai về sức khỏe, rất dễ xảy ra sơ sót khi cơ thể bắt đầu mệt mỏi khi gần cuối chặng hành trình. Xa gia đình liên tục trong khoảng thời gian dài cũng là một thách thức lớn với những tài xế.',
+        image: IMAGE_BASE_URL + 'taxi-taixe.webp',
+        'description-second':
+          'Những bác tài xe khách đi nhiều nơi, gặp nhiều người và biết nhiều điều hay. Đó là niềm vui, niềm hạnh phúc nhiều bác tài xe khách mong đợi. Nói về nghề, hầu hết các bác tài đều tặc lưỡi: “Vất vả lắm!”.',
+      },
+      {
+        'description-first':
+          'Nghề lái xe là làm dâu trăm họ, không phải khách nào cũng tử tế và dễ tính như nhau, vì vậy phải đảm bảo an toàn hành trình, làm hài lòng khách hàng là việc không đơn giản.',
+        image: IMAGE_BASE_URL + 'taxi-taixe1.webp',
+        'description-second':
+          ' Nghề này đi nhiều, ít có thời gian dành cho gia đình, đặc biệt vào những ngày lễ, Tết. Bởi thế sự hậu thuẫn từ phía gia đình, sự chia sẻ từ người vợ là rất quan trọng để các bác tài vững tay lái… Trên thực tế, với mức lương không quá cao công cộng thêm việc làm nhiều giờ khiến người tài xế không thể tập trung trong công việc dẫn đến tình trạng căng thẳng và mệt mỏi.Cùng với đó, những tài xế lái xe tải đường dài là công việc “tổn thọ” nhất thế giới, Nghiên cứu tại Mỹ đã chỉ ra, nghề lái xe tải chiếm 25% số ca tử vong liên quan đến nghề nghiệp.Đội taxi Long Khánh chúc các bác tài luôn vững vàng tay lái trên mọi nẻo đường, nối gần thêm những hành trình của khách hàng.',
+      },
+    ],
+  },
 ]
 module.exports = newsDetail
