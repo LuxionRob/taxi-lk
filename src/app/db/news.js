@@ -38,6 +38,14 @@ function newsData() {
         'Đại Chủng Viện Long Khánh là một địa chỉ nổi tiếng tại thành phố Long Khánh với hơn 10 năm kinh nghiệm trong lĩnh vực giáo dục...',
       image: IMAGE_BASE_URL + 'dai-chung-vien-Long-Khanh.webp',
     },
+    {
+      title: 'Nghề tài xế và những khó khăn',
+      date: '16/04/2023',
+      view: '38',
+      description:
+        'Rong ruổi trên khắp các cung đường kèm theo việc phải chịu áp lực lớn vì tập trung nhiều giờ liền dẫn đến căng thẳng, mệt mỏi… Đây là tâm sự của hầu hết mọi tài xế khi nói đến công việc của mình...',
+      image: IMAGE_BASE_URL + 'anh-taxi-taixe.webp',
+    },
   ]
 }
 module.exports = newsData
