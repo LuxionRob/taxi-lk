@@ -39,6 +39,14 @@ function newsData() {
       image: IMAGE_BASE_URL + 'dai-chung-vien-Long-Khanh.webp',
     },
     {
+      title: 'Đội Taxi Long Khánh - Lựa chọn tuyệt vời cho người đi làm',
+      date: '18/04/2023',
+      view: '139',
+      description:
+        'Đối với người đi làm, thời gian là vô cùng quan trọng và không phải lúc nào đi bằng phương tiện cá nhân cũng là lựa chọn tối ưu...',
+      image: IMAGE_BASE_URL + 'di-lam.webp',
+    },
+    {
       title: 'Nghề tài xế và những khó khăn',
       date: '16/04/2023',
       view: '38',
