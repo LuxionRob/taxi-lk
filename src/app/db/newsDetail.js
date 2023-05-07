@@ -212,8 +212,10 @@ const newsDetail = [
       {
         'description-first':
           'Tóm lại, Đội Taxi Long Khánh chúng tôi là một lựa chọn tiện lợi, an toàn và thoải mái để di chuyển.',
-    },
-    {
+      },
+    ],
+  },
+  {
     title: 'Nghề tài xế và những khó khăn',
     date: '16/04/2023',
     view: 38,
@@ -249,48 +251,43 @@ const newsDetail = [
       {
         subtitle: 'Đội taxi Long Khánh sẳn sàng phục vụ bạn trong kỳ nghỉ lễ này.',
         'description-first':
-        'Khác với các kỳ nghỉ lễ trước ,kỳ nghĩ lễ 30/4 - 1/5 năm nay được nghỉ tới 5 ngày liên tục do nối tiếp với ngày nghỉ lễ Giổ Tổ Hùng Vương. Nên đây sẽ là điều kiện tuyệt vời để chúng ta có trang thủ thời gian để vui chơi, thư giãn cùng với bạn bè, người thân và gia đình của chúng ta. Với kỳ nghỉ lễ sắp tới, doitaxilongkhanh.com sẽ gợi ý một vài địa điểm du lịch lý tưởng tại Đồng Nai cho những ai đang phân vân không biết phải đi đâu trong dịp lễ này.',
+          'Khác với các kỳ nghỉ lễ trước ,kỳ nghĩ lễ 30/4 - 1/5 năm nay được nghỉ tới 5 ngày liên tục do nối tiếp với ngày nghỉ lễ Giổ Tổ Hùng Vương. Nên đây sẽ là điều kiện tuyệt vời để chúng ta có trang thủ thời gian để vui chơi, thư giãn cùng với bạn bè, người thân và gia đình của chúng ta. Với kỳ nghỉ lễ sắp tới, doitaxilongkhanh.com sẽ gợi ý một vài địa điểm du lịch lý tưởng tại Đồng Nai cho những ai đang phân vân không biết phải đi đâu trong dịp lễ này.',
         'description-second':
           'Đội Taxi - Taxi Long Khánh giá rẻ (doitaxilongkhanh.com) là một đơn vị cho thuê xe taxi 4 chổ, 7 chổ, ô tô du lịch,… uy tín hàng đầu tại Long Khánh. Đội taxi chúng tôi luôn sẳn sàng phục vụ quý khách hàng trong kì lễ sắp tới này, chúng tôi mong muốn quý khách hàng có thể trải nghiệm được một kỳ nghỉ tuyệt vời với những gợi ý địa điểm du lịch và với sự phục vụ của dịch vụ chúng tôi.',
       },
       {
         subtitle: 'Thác Đá Hàn.',
-        'description-first':
-        'Địa chỉ: Tổ 15 - Ấp 5, Sông Trầu, Sông Trầu, Trảng Bom, Đồng Nai.',
+        'description-first': 'Địa chỉ: Tổ 15 - Ấp 5, Sông Trầu, Sông Trầu, Trảng Bom, Đồng Nai.',
         'description-second':
-        'Khu du lịch Thác Đá Hàn là một trong những điểm mới lạ để cho các bạn trẻ tới khám phá. Với vẻ đẹp thiên nhiên hoang sơ và hùng vĩ khó cưỡng, thác nước hữu tình điểm thêm vườn trái cây trĩu quả. Với những bạn yêu thích đi du lịch thì địa điểm này hứa hẹn sẽ là điểm đến lý tưởng để dã ngoại, cắm trại những ngày nghĩ lễ sắp tới này. Đến với Thác Đá Hàn, quý khánh hàng sẽ phải ngạc nhiên trước cảnh sắc thiên nhiên hoang dã đầy hấp dẫn nằm dọc theo một con suối nhỏ. Không gian mát rượi cùng với tiếng chim hót, tiếng suối chảy róc rách tạo nên một bản giao hưởng đồng quê nhẹ nhàng giúp bạn quên đi không khí ồn ào, náo nhiệt nơi phố thị.',
+          'Khu du lịch Thác Đá Hàn là một trong những điểm mới lạ để cho các bạn trẻ tới khám phá. Với vẻ đẹp thiên nhiên hoang sơ và hùng vĩ khó cưỡng, thác nước hữu tình điểm thêm vườn trái cây trĩu quả. Với những bạn yêu thích đi du lịch thì địa điểm này hứa hẹn sẽ là điểm đến lý tưởng để dã ngoại, cắm trại những ngày nghĩ lễ sắp tới này. Đến với Thác Đá Hàn, quý khánh hàng sẽ phải ngạc nhiên trước cảnh sắc thiên nhiên hoang dã đầy hấp dẫn nằm dọc theo một con suối nhỏ. Không gian mát rượi cùng với tiếng chim hót, tiếng suối chảy róc rách tạo nên một bản giao hưởng đồng quê nhẹ nhàng giúp bạn quên đi không khí ồn ào, náo nhiệt nơi phố thị.',
         image: IMAGE_BASE_URL + 'thac-da-hang.webp',
       },
       {
         subtitle: 'Làng du lịch Tre Việt.',
-        'description-first':
-        'Địa chỉ: 25 Phan Văn Đáng, Phú Hữu, Nhơn Trạch, Đồng Nai.',
+        'description-first': 'Địa chỉ: 25 Phan Văn Đáng, Phú Hữu, Nhơn Trạch, Đồng Nai.',
         'description-second':
-        'Làng du lịch Tre Việt hay còn gọi là khu du lịch sinh thái The Bamboo là một trong những địa điểm vui chơi “sốt xình xịch”. Tại đây với nhiều trò chơi hấp như chèo thuyền kayak, thuyền thúng, du thuyền bamboo, đạp xe trên sông hay vượt chướng ngại vật,… Hứa hẹn đem lại cho quý khách hàng những phút giây thư giãn sau những ngày làm việc vất vả.',
+          'Làng du lịch Tre Việt hay còn gọi là khu du lịch sinh thái The Bamboo là một trong những địa điểm vui chơi “sốt xình xịch”. Tại đây với nhiều trò chơi hấp như chèo thuyền kayak, thuyền thúng, du thuyền bamboo, đạp xe trên sông hay vượt chướng ngại vật,… Hứa hẹn đem lại cho quý khách hàng những phút giây thư giãn sau những ngày làm việc vất vả.',
         image: IMAGE_BASE_URL + 'lang-tre.webp',
       },
       {
         subtitle: 'Vườn quốc gia Nam Cát Tiên.',
-        'description-first':
-        'Địa chỉ: Tân Phú, Đồng Nai.',
+        'description-first': 'Địa chỉ: Tân Phú, Đồng Nai.',
         'description-second':
-        'Vườn quốc gia Cát Tiên là một khu bảo tồn thiên nhiên và là một trong 6 khu dự trữ sinh quyển của thết giới được UNESCO công nhận. Nhờ có vị trí thuận lợi, khí hậu ôn hoà đã khiến cho khu rừng vẫn giữ được những nét hoang sơ vốn có. Tại đây có rất nhiều loài gỗ quý và cũng là nơi cư ngụ của nhiều loài động vật hoang dã và bán hoang dã như công, khỉ, gấu,nai, chồn, lợn rừng, gà rừng,  gà rừng… Nếu quý khách hàng là người yêu thiên nhiên, thích đi khám phá các loại động thực vật tự nhiên thì quanh đây có rất nhiều khách sạn huyện Tân Phú rất thuận tiện cho bạn tham quan, du lịch và không thể bỏ qua vườn quốc gia Cát Tiên rồi.',
+          'Vườn quốc gia Cát Tiên là một khu bảo tồn thiên nhiên và là một trong 6 khu dự trữ sinh quyển của thết giới được UNESCO công nhận. Nhờ có vị trí thuận lợi, khí hậu ôn hoà đã khiến cho khu rừng vẫn giữ được những nét hoang sơ vốn có. Tại đây có rất nhiều loài gỗ quý và cũng là nơi cư ngụ của nhiều loài động vật hoang dã và bán hoang dã như công, khỉ, gấu,nai, chồn, lợn rừng, gà rừng,  gà rừng… Nếu quý khách hàng là người yêu thiên nhiên, thích đi khám phá các loại động thực vật tự nhiên thì quanh đây có rất nhiều khách sạn huyện Tân Phú rất thuận tiện cho bạn tham quan, du lịch và không thể bỏ qua vườn quốc gia Cát Tiên rồi.',
         image: IMAGE_BASE_URL + 'vuon-quoc-gia-nam-cat-tien.webp',
       },
       {
         subtitle: 'Khu du lịch Bửu Long.',
-        'description-first':
-        'Địa chỉ: Huỳnh Văn Nghệ, Kp4, Bửu Long, Thành phố Biên Hòa, Đồng Nai.',
+        'description-first': 'Địa chỉ: Huỳnh Văn Nghệ, Kp4, Bửu Long, Thành phố Biên Hòa, Đồng Nai.',
         'description-second':
-        'Khu du lịch Bửu Long là một trong những địa điểm hấp dẫn của Đồng Nai. Nơi đây được mệnh danh là Vịnh Hạ Long thu nhỏ với núi cao, hồ rộng tạo nên một khung cảnh hoang sơ tuyệt đẹp. Thư giãn bên hồ nước xanh biếc hay là ngồi trên thuyền thiên nga đi dạo quanh hồ để xua tan đi mọi mệt mỏi của cuộc sống hàng ngày.',
+          'Khu du lịch Bửu Long là một trong những địa điểm hấp dẫn của Đồng Nai. Nơi đây được mệnh danh là Vịnh Hạ Long thu nhỏ với núi cao, hồ rộng tạo nên một khung cảnh hoang sơ tuyệt đẹp. Thư giãn bên hồ nước xanh biếc hay là ngồi trên thuyền thiên nga đi dạo quanh hồ để xua tan đi mọi mệt mỏi của cuộc sống hàng ngày.',
         image: IMAGE_BASE_URL + 'buu-long.webp',
       },
       {
         subtitle: 'Thác Giang Điền ',
-        'description-first':
-        'Địa chỉ: 104/4 Ấp Hòa Bình, Xã Giang Điền,, Giang Điền, Trảng Bom, Đồng Nai.',
+        'description-first': 'Địa chỉ: 104/4 Ấp Hòa Bình, Xã Giang Điền,, Giang Điền, Trảng Bom, Đồng Nai.',
         'description-second':
-        'Thác Giang Điền là địa điểm thu hút rất nhiều bạn trẻ và các hộ gia đình kéo nhau về đây tổ chức cắm trại, tắm thác và tổ chức ăn uống. Với khung cảnh hoang sơ được bao bọc bởi những hàng cây xanh, tảng đá giúp bạn hòa mình vào với thiên nhiên xanh mát, tránh xa cái không khí náo nhiệt nơi thành thị.',
+          'Thác Giang Điền là địa điểm thu hút rất nhiều bạn trẻ và các hộ gia đình kéo nhau về đây tổ chức cắm trại, tắm thác và tổ chức ăn uống. Với khung cảnh hoang sơ được bao bọc bởi những hàng cây xanh, tảng đá giúp bạn hòa mình vào với thiên nhiên xanh mát, tránh xa cái không khí náo nhiệt nơi thành thị.',
         image: IMAGE_BASE_URL + 'thac-giang-dien.webp',
       },
     ],
