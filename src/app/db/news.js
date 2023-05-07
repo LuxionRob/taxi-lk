@@ -54,6 +54,14 @@ function newsData() {
         'Rong ruổi trên khắp các cung đường kèm theo việc phải chịu áp lực lớn vì tập trung nhiều giờ liền dẫn đến căng thẳng, mệt mỏi… Đây là tâm sự của hầu hết mọi tài xế khi nói đến công việc của mình...',
       image: IMAGE_BASE_URL + 'anh-taxi-taixe.webp',
     },
+    {
+      title: 'Lễ 30/4 - 1/5 không biết phải đi đâu?',
+      date: '29/04/2023',
+      view: '30',
+      description:
+        'Khác với các kỳ nghỉ lễ trước ,kỳ nghĩ lễ 30/4 - 1/5 năm nay được nghỉ tới 5 ngày liên tục do nối tiếp với ngày nghỉ...',
+      image: IMAGE_BASE_URL + 'nghi-le-30-4.webp',
+    },
   ]
 }
 module.exports = newsData
