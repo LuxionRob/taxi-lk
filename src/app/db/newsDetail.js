@@ -292,5 +292,24 @@ const newsDetail = [
       },
     ],
   },
+
+  {
+    title: 'Dịch vụ taxi - Đội taxi Long Khánh đưa đón bệnh viện ở Tp.Hồ Chí Minh',
+    date: '12/05/2023',
+    view: 21,
+    section: [
+      {
+        subtitle: 'Đội taxi Long Khánh đưa đón bệnh viện ở Tp.Hồ Chí Minh',
+        'description-first':
+          'Đội Taxi Long Khánh - TP.Hồ Chí Minh hoạt động 24/7 kễ và các ngày lễ tết. Cung cấp các dịch vụ đưa đón khánh hàng tại tp Long Khánh và các huyện khác (Xuân Lộc, Cẩm Mỹ, Trảng Bom, Long Thành, Biên Hoà, Nhơn Trạch, Tân Phú, Vỉnh Cửu,…) đi các bệnh viện lớn của thành phố Hồ Chí Minh như: Bệnh viện Nhi Đồng 1, Bệnh viện Nhi Đồng 2, Bệnh viện Nhi Đồng 3, bệnh viện Từ Dũ, Bệnh Viện Ung Bướu, Bệnh viện Chợ Rẫy, Bệnh viện Da Liễu, Bệnh viện Chấn Thương Chỉnh Hình, Bệnh viện Đại Học Y Dược, Bệnh viện Phạm Ngọc Thạch,… Đội taxi Long Khánh cam kết đáp ứng nhu cầu đưa đón nhanh chóng, an toàn mang lại sự hài lòng cho khách hàng.',
+      },
+      {
+        subtitle: 'Bảnh giá xe taxi.',
+        image: IMAGE_BASE_URL + 'bang-gia-benh-vien.webp',
+        'description-second':
+          'Lưu ý : Giá cước trên chưa bao gồm VAT, Phí cầu đường, phà, vé tham quan phát sinh, phí chờ xe khi đi 2 chiều nếu không hợp đồng giá. Giá có thể thay đổi ít nhiều lý do tình hình xăng lên xuống thất thường.',
+      },
+    ],
+  },
 ]
 module.exports = newsDetail
