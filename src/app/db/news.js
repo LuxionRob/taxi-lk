@@ -62,6 +62,14 @@ function newsData() {
         'Khác với các kỳ nghỉ lễ trước ,kỳ nghĩ lễ 30/4 - 1/5 năm nay được nghỉ tới 5 ngày liên tục do nối tiếp với ngày nghỉ...',
       image: IMAGE_BASE_URL + 'nghi-le-30-4.webp',
     },
+    {
+      title: 'Dịch vụ taxi - Đội taxi Long Khánh đưa đón bệnh viện ở Tp.Hồ Chí Minh',
+      date: '12/05/2023',
+      view: '23',
+      description:
+      'Đội Taxi Long Khánh - TP.Hồ Chí Minh hoạt động 24/7 kễ và các ngày lễ tết. Cung cấp các dịch vụ đưa đón khánh hàng tại tp Long Khánh...',
+      image: IMAGE_BASE_URL + 'benh-vien-tphcm.webp',
+    },
   ]
 }
 module.exports = newsData
