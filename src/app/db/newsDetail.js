@@ -311,5 +311,29 @@ const newsDetail = [
       },
     ],
   },
+  {
+    title: 'Đội taxi - Taxi Long Khánh giá rẻ đưa đón tham quan du lịch',
+    date: '14/05/2023',
+    view: 21,
+    section: [
+      {
+        subtitle: 'Đội taxi Long Khánh đưa đón bệnh viện ở Tp.Hồ Chí Minh',
+        'description-first':
+          'Đội taxi - Taxi Long Khánh giá rẻ cung cấp dịch vụ thuê xe du lịch tham quan với các loại xe 4 chỗ, 7 chỗ, ô tô du lịch (16 chỗ, 30 chỗ, … ) cho quý khách hàng có nhu cầu tham quan du lịch có thời gian thoả thuận theo nhu cầu của khách hàng. Dịch vụ hỗ trợ tham quan ở các địa điểm du lịch nổi tiếng ví dụ như: Long Khánh đi Đà Lạt, Long Khánh đi Vũng Tàu, Long Khánh đi Hồ Trị An, Long Khánh đi Mũi Né, Long Khánh đi Nha Trang Long Khánh đi Phan Thiết, …',
+        'description-second':
+          'Với mức giá cước hợp lý rõ ràng Đội taxi - Taxi Long Khánh giá rẻ chúng tôi đảm bảo đem lại giá trị tiết kiệm tối ưu chi phí tiết kiệm cho khách hàng và đem lại trải nghiệm tuyệt vời với khách hàng.',
+        image: IMAGE_BASE_URL + '4-chiec-taxi.webp',
+      },
+      {
+        subtitle: 'Giá cước dịch vụ tham quan du lịch.',
+        'description-first':
+          'Giá cước dịch vụ chúng tôi tuỳ vào tình hình thực tế (bao gồm:loại xe, giá xăng, ngày lễ, tết,…). Bên cạnh đó khi quý khách hàng đặt lịch đi trên 40km quý khách sẽ được áp dụng giảm 10% cước cơ bản, được miễn phí cầu đường và đảm bảo không phát sinh thêm.',
+        'description-second':
+          'Quý khách hàng vui lòng liện hệ với hotline 0779.942.463 để được thoả thuận cũng như tư vấn về dịch vụ của chúng tôi. Xin chân thành cảm ơn quý khách hàng!',
+        image: IMAGE_BASE_URL + 'Thue-xe-du-lich.webp',
+      },
+    ],
+  },
+  
 ]
 module.exports = newsDetail

@@ -70,6 +70,14 @@ function newsData() {
       'Đội Taxi Long Khánh - TP.Hồ Chí Minh hoạt động 24/7 kễ và các ngày lễ tết. Cung cấp các dịch vụ đưa đón khánh hàng tại tp Long Khánh...',
       image: IMAGE_BASE_URL + 'benh-vien-tphcm.webp',
     },
+    {
+      title: 'Đội taxi - Taxi Long Khánh giá rẻ đưa đón tham quan du lịch',
+      date: '14/05/2023',
+      view: '21',
+      description:
+      'Đội taxi - Taxi Long Khánh giá rẻ cung cấp dịch vụ thuê xe du lịch tham quan với các loại xe 4 chỗ, 7 chỗ, ô tô du lịch (16 chỗ, 30 chỗ, … ) ',
+      image: IMAGE_BASE_URL + 'Thue-xe-du-lich.webp',
+    },
   ]
 }
 module.exports = newsData
