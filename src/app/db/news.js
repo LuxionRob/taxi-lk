@@ -38,6 +38,46 @@ function newsData() {
         'Đại Chủng Viện Long Khánh là một địa chỉ nổi tiếng tại thành phố Long Khánh với hơn 10 năm kinh nghiệm trong lĩnh vực giáo dục...',
       image: IMAGE_BASE_URL + 'dai-chung-vien-Long-Khanh.webp',
     },
+    {
+      title: 'Đội Taxi Long Khánh - Lựa chọn tuyệt vời cho người đi làm',
+      date: '18/04/2023',
+      view: '139',
+      description:
+        'Đối với người đi làm, thời gian là vô cùng quan trọng và không phải lúc nào đi bằng phương tiện cá nhân cũng là lựa chọn tối ưu...',
+      image: IMAGE_BASE_URL + 'di-lam.webp',
+    },
+    {
+      title: 'Nghề tài xế và những khó khăn',
+      date: '16/04/2023',
+      view: '38',
+      description:
+        'Rong ruổi trên khắp các cung đường kèm theo việc phải chịu áp lực lớn vì tập trung nhiều giờ liền dẫn đến căng thẳng, mệt mỏi… Đây là tâm sự của hầu hết mọi tài xế khi nói đến công việc của mình...',
+      image: IMAGE_BASE_URL + 'anh-taxi-taixe.webp',
+    },
+    {
+      title: 'Lễ 30/4 - 1/5 không biết phải đi đâu?',
+      date: '29/04/2023',
+      view: '30',
+      description:
+        'Khác với các kỳ nghỉ lễ trước ,kỳ nghĩ lễ 30/4 - 1/5 năm nay được nghỉ tới 5 ngày liên tục do nối tiếp với ngày nghỉ...',
+      image: IMAGE_BASE_URL + 'nghi-le-30-4.webp',
+    },
+    {
+      title: 'Dịch vụ taxi - Đội taxi Long Khánh đưa đón bệnh viện ở Tp.Hồ Chí Minh',
+      date: '12/05/2023',
+      view: '23',
+      description:
+      'Đội Taxi Long Khánh - TP.Hồ Chí Minh hoạt động 24/7 kễ và các ngày lễ tết. Cung cấp các dịch vụ đưa đón khánh hàng tại tp Long Khánh...',
+      image: IMAGE_BASE_URL + 'benh-vien-tphcm.webp',
+    },
+    {
+      title: 'Đội taxi - Taxi Long Khánh giá rẻ đưa đón tham quan du lịch',
+      date: '14/05/2023',
+      view: '21',
+      description:
+      'Đội taxi - Taxi Long Khánh giá rẻ cung cấp dịch vụ thuê xe du lịch tham quan với các loại xe 4 chỗ, 7 chỗ, ô tô du lịch (16 chỗ, 30 chỗ, … ) ',
+      image: IMAGE_BASE_URL + 'Thue-xe-du-lich.webp',
+    },
   ]
 }
 module.exports = newsData

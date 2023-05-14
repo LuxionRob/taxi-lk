@@ -189,5 +189,151 @@ const newsDetail = [
       },
     ],
   },
+  {
+    title: 'Đội Taxi Long Khánh - Lựa chọn tuyệt vời cho người đi làm',
+    date: '18/04/2023',
+    view: 139,
+    section: [
+      {
+        subtitle: 'Đội Taxi Long Khánh - Lựa chọn tuyệt vời cho người đi làm',
+        image: IMAGE_BASE_URL + 'di-lam.webp',
+        'description-first':
+          'Đối với người đi làm, thời gian là vô cùng quan trọng và không phải lúc nào đi bằng phương tiện cá nhân cũng là lựa chọn tối ưu. Đội Taxi - Taxi Long Khánh giá rẻ - Chúng tôi là đơn vị gọi xe hàng đầu tại Long Khánh - Cẩm Mỹ - Dầu Giây - Xuân Lộc, mang lại cho khách hàng 1 dịch vụ tuyệt vời nhất. Đội xe đông đảo đa dạng và hiện đại. Đảm bảo cam kết xe đời mới.',
+      },
+      {
+        list: [
+          'Tiện lợi: Bạn có thể gọi taxi bất cứ khi nào bạn cần, mà không cần phải đợi như khi sử dụng phương tiện công cộng. Bạn cũng không cần phải lo lắng về vấn đề đỗ xe và tìm đường đi đến điểm đến.',
+          'An toàn: Taxi là một trong những phương tiện an toàn nhất để di chuyển, đặc biệt là khi bạn đi một mình hoặc đi vào ban đêm. Hầu hết các tài xế taxi đã được huấn luyện để lái xe an toàn và họ cũng biết cách xử lý các tình huống khẩn cấp.',
+          'Thoải mái: Khi đi taxi, bạn có thể ngồi thoải mái và không cần phải lo lắng về việc lái xe. Bạn cũng có thể làm việc, trả lời email hoặc thư điện tử, đọc sách, nghe nhạc hoặc nghỉ ngơi.',
+          'Điểm đến chính xác: Nếu bạn đi taxi, bạn không cần phải lo lắng về việc đến nhầm địa chỉ hoặc bị lạc đường. Tài xế taxi có thể sẽ biết đường đi đến điểm đến của bạn hoặc sử dụng GPS để đến được đúng địa chỉ.',
+          'Tốc độ: Trong một số trường hợp, đi taxi có thể nhanh hơn so với các phương tiện khác, đặc biệt là trong các thành phố có tình trạng kẹt xe nghiêm trọng.',
+        ],
+      },
+      {
+        'description-first':
+          'Tóm lại, Đội Taxi Long Khánh chúng tôi là một lựa chọn tiện lợi, an toàn và thoải mái để di chuyển.',
+      },
+    ],
+  },
+  {
+    title: 'Nghề tài xế và những khó khăn',
+    date: '16/04/2023',
+    view: 38,
+    section: [
+      {
+        'description-first':
+          'Rong ruổi trên khắp các cung đường kèm theo việc phải chịu áp lực lớn vì tập trung nhiều giờ liền dẫn đến căng thẳng, mệt mỏi… Đây là tâm sự của hầu hết mọi tài xế khi nói đến công việc của mình.',
+        image: IMAGE_BASE_URL + 'ttxvn-grab.webp',
+        'description-second':
+          'Nghề tài xế (lái xe) đã xuất hiện từ rất lâu đời, qua bao nhiêu thời kỳ phát triển kinh tế đất nước, nghề lái xe vẫn luôn đứng vững và ngày một phát triển hơn. Nghề lái xe đã đi vào thơ ca hào hùng trong công cuộc giải phóng dân tộc. Nghề lái xe luôn được tôn vinh nhiều người còn ví von là các anh hùng xa lộ. ',
+      },
+      {
+        'description-first':
+          'Với cánh tài xế đường dài với mỗi chuyến hành trình kéo dài từ 3-5 ngày, sự dẻo dai về sức khỏe là rất cần thiết. Nếu không có sự dẻo dai về sức khỏe, rất dễ xảy ra sơ sót khi cơ thể bắt đầu mệt mỏi khi gần cuối chặng hành trình. Xa gia đình liên tục trong khoảng thời gian dài cũng là một thách thức lớn với những tài xế.',
+        image: IMAGE_BASE_URL + 'taxi-taixe.webp',
+        'description-second':
+          'Những bác tài xe khách đi nhiều nơi, gặp nhiều người và biết nhiều điều hay. Đó là niềm vui, niềm hạnh phúc nhiều bác tài xe khách mong đợi. Nói về nghề, hầu hết các bác tài đều tặc lưỡi: “Vất vả lắm!”.',
+      },
+      {
+        'description-first':
+          'Nghề lái xe là làm dâu trăm họ, không phải khách nào cũng tử tế và dễ tính như nhau, vì vậy phải đảm bảo an toàn hành trình, làm hài lòng khách hàng là việc không đơn giản.',
+        image: IMAGE_BASE_URL + 'taxi-taixe1.webp',
+        'description-second':
+          ' Nghề này đi nhiều, ít có thời gian dành cho gia đình, đặc biệt vào những ngày lễ, Tết. Bởi thế sự hậu thuẫn từ phía gia đình, sự chia sẻ từ người vợ là rất quan trọng để các bác tài vững tay lái… Trên thực tế, với mức lương không quá cao công cộng thêm việc làm nhiều giờ khiến người tài xế không thể tập trung trong công việc dẫn đến tình trạng căng thẳng và mệt mỏi.Cùng với đó, những tài xế lái xe tải đường dài là công việc “tổn thọ” nhất thế giới, Nghiên cứu tại Mỹ đã chỉ ra, nghề lái xe tải chiếm 25% số ca tử vong liên quan đến nghề nghiệp.Đội taxi Long Khánh chúc các bác tài luôn vững vàng tay lái trên mọi nẻo đường, nối gần thêm những hành trình của khách hàng.',
+      },
+    ],
+  },
+  {
+    title: 'Lễ 30/4 - 1/5 không biết phải đi đâu?',
+    date: '29/04/2023',
+    view: 30,
+    section: [
+      {
+        subtitle: 'Đội taxi Long Khánh sẳn sàng phục vụ bạn trong kỳ nghỉ lễ này.',
+        'description-first':
+          'Khác với các kỳ nghỉ lễ trước ,kỳ nghĩ lễ 30/4 - 1/5 năm nay được nghỉ tới 5 ngày liên tục do nối tiếp với ngày nghỉ lễ Giổ Tổ Hùng Vương. Nên đây sẽ là điều kiện tuyệt vời để chúng ta có trang thủ thời gian để vui chơi, thư giãn cùng với bạn bè, người thân và gia đình của chúng ta. Với kỳ nghỉ lễ sắp tới, doitaxilongkhanh.com sẽ gợi ý một vài địa điểm du lịch lý tưởng tại Đồng Nai cho những ai đang phân vân không biết phải đi đâu trong dịp lễ này.',
+        'description-second':
+          'Đội Taxi - Taxi Long Khánh giá rẻ (doitaxilongkhanh.com) là một đơn vị cho thuê xe taxi 4 chổ, 7 chổ, ô tô du lịch,… uy tín hàng đầu tại Long Khánh. Đội taxi chúng tôi luôn sẳn sàng phục vụ quý khách hàng trong kì lễ sắp tới này, chúng tôi mong muốn quý khách hàng có thể trải nghiệm được một kỳ nghỉ tuyệt vời với những gợi ý địa điểm du lịch và với sự phục vụ của dịch vụ chúng tôi.',
+      },
+      {
+        subtitle: 'Thác Đá Hàn.',
+        'description-first': 'Địa chỉ: Tổ 15 - Ấp 5, Sông Trầu, Sông Trầu, Trảng Bom, Đồng Nai.',
+        'description-second':
+          'Khu du lịch Thác Đá Hàn là một trong những điểm mới lạ để cho các bạn trẻ tới khám phá. Với vẻ đẹp thiên nhiên hoang sơ và hùng vĩ khó cưỡng, thác nước hữu tình điểm thêm vườn trái cây trĩu quả. Với những bạn yêu thích đi du lịch thì địa điểm này hứa hẹn sẽ là điểm đến lý tưởng để dã ngoại, cắm trại những ngày nghĩ lễ sắp tới này. Đến với Thác Đá Hàn, quý khánh hàng sẽ phải ngạc nhiên trước cảnh sắc thiên nhiên hoang dã đầy hấp dẫn nằm dọc theo một con suối nhỏ. Không gian mát rượi cùng với tiếng chim hót, tiếng suối chảy róc rách tạo nên một bản giao hưởng đồng quê nhẹ nhàng giúp bạn quên đi không khí ồn ào, náo nhiệt nơi phố thị.',
+        image: IMAGE_BASE_URL + 'thac-da-hang.webp',
+      },
+      {
+        subtitle: 'Làng du lịch Tre Việt.',
+        'description-first': 'Địa chỉ: 25 Phan Văn Đáng, Phú Hữu, Nhơn Trạch, Đồng Nai.',
+        'description-second':
+          'Làng du lịch Tre Việt hay còn gọi là khu du lịch sinh thái The Bamboo là một trong những địa điểm vui chơi “sốt xình xịch”. Tại đây với nhiều trò chơi hấp như chèo thuyền kayak, thuyền thúng, du thuyền bamboo, đạp xe trên sông hay vượt chướng ngại vật,… Hứa hẹn đem lại cho quý khách hàng những phút giây thư giãn sau những ngày làm việc vất vả.',
+        image: IMAGE_BASE_URL + 'lang-tre.webp',
+      },
+      {
+        subtitle: 'Vườn quốc gia Nam Cát Tiên.',
+        'description-first': 'Địa chỉ: Tân Phú, Đồng Nai.',
+        'description-second':
+          'Vườn quốc gia Cát Tiên là một khu bảo tồn thiên nhiên và là một trong 6 khu dự trữ sinh quyển của thết giới được UNESCO công nhận. Nhờ có vị trí thuận lợi, khí hậu ôn hoà đã khiến cho khu rừng vẫn giữ được những nét hoang sơ vốn có. Tại đây có rất nhiều loài gỗ quý và cũng là nơi cư ngụ của nhiều loài động vật hoang dã và bán hoang dã như công, khỉ, gấu,nai, chồn, lợn rừng, gà rừng,  gà rừng… Nếu quý khách hàng là người yêu thiên nhiên, thích đi khám phá các loại động thực vật tự nhiên thì quanh đây có rất nhiều khách sạn huyện Tân Phú rất thuận tiện cho bạn tham quan, du lịch và không thể bỏ qua vườn quốc gia Cát Tiên rồi.',
+        image: IMAGE_BASE_URL + 'vuon-quoc-gia-nam-cat-tien.webp',
+      },
+      {
+        subtitle: 'Khu du lịch Bửu Long.',
+        'description-first': 'Địa chỉ: Huỳnh Văn Nghệ, Kp4, Bửu Long, Thành phố Biên Hòa, Đồng Nai.',
+        'description-second':
+          'Khu du lịch Bửu Long là một trong những địa điểm hấp dẫn của Đồng Nai. Nơi đây được mệnh danh là Vịnh Hạ Long thu nhỏ với núi cao, hồ rộng tạo nên một khung cảnh hoang sơ tuyệt đẹp. Thư giãn bên hồ nước xanh biếc hay là ngồi trên thuyền thiên nga đi dạo quanh hồ để xua tan đi mọi mệt mỏi của cuộc sống hàng ngày.',
+        image: IMAGE_BASE_URL + 'buu-long.webp',
+      },
+      {
+        subtitle: 'Thác Giang Điền ',
+        'description-first': 'Địa chỉ: 104/4 Ấp Hòa Bình, Xã Giang Điền,, Giang Điền, Trảng Bom, Đồng Nai.',
+        'description-second':
+          'Thác Giang Điền là địa điểm thu hút rất nhiều bạn trẻ và các hộ gia đình kéo nhau về đây tổ chức cắm trại, tắm thác và tổ chức ăn uống. Với khung cảnh hoang sơ được bao bọc bởi những hàng cây xanh, tảng đá giúp bạn hòa mình vào với thiên nhiên xanh mát, tránh xa cái không khí náo nhiệt nơi thành thị.',
+        image: IMAGE_BASE_URL + 'thac-giang-dien.webp',
+      },
+    ],
+  },
+
+  {
+    title: 'Dịch vụ taxi - Đội taxi Long Khánh đưa đón bệnh viện ở Tp.Hồ Chí Minh',
+    date: '12/05/2023',
+    view: 21,
+    section: [
+      {
+        subtitle: 'Đội taxi Long Khánh đưa đón bệnh viện ở Tp.Hồ Chí Minh',
+        'description-first':
+          'Đội Taxi Long Khánh - TP.Hồ Chí Minh hoạt động 24/7 kễ và các ngày lễ tết. Cung cấp các dịch vụ đưa đón khánh hàng tại tp Long Khánh và các huyện khác (Xuân Lộc, Cẩm Mỹ, Trảng Bom, Long Thành, Biên Hoà, Nhơn Trạch, Tân Phú, Vỉnh Cửu,…) đi các bệnh viện lớn của thành phố Hồ Chí Minh như: Bệnh viện Nhi Đồng 1, Bệnh viện Nhi Đồng 2, Bệnh viện Nhi Đồng 3, bệnh viện Từ Dũ, Bệnh Viện Ung Bướu, Bệnh viện Chợ Rẫy, Bệnh viện Da Liễu, Bệnh viện Chấn Thương Chỉnh Hình, Bệnh viện Đại Học Y Dược, Bệnh viện Phạm Ngọc Thạch,… Đội taxi Long Khánh cam kết đáp ứng nhu cầu đưa đón nhanh chóng, an toàn mang lại sự hài lòng cho khách hàng.',
+      },
+      {
+        subtitle: 'Bảnh giá xe taxi.',
+        image: IMAGE_BASE_URL + 'bang-gia-benh-vien.webp',
+        'description-second':
+          'Lưu ý : Giá cước trên chưa bao gồm VAT, Phí cầu đường, phà, vé tham quan phát sinh, phí chờ xe khi đi 2 chiều nếu không hợp đồng giá. Giá có thể thay đổi ít nhiều lý do tình hình xăng lên xuống thất thường.',
+      },
+    ],
+  },
+  {
+    title: 'Đội taxi - Taxi Long Khánh giá rẻ đưa đón tham quan du lịch',
+    date: '14/05/2023',
+    view: 21,
+    section: [
+      {
+        subtitle: 'Đội taxi Long Khánh đưa đón bệnh viện ở Tp.Hồ Chí Minh',
+        'description-first':
+          'Đội taxi - Taxi Long Khánh giá rẻ cung cấp dịch vụ thuê xe du lịch tham quan với các loại xe 4 chỗ, 7 chỗ, ô tô du lịch (16 chỗ, 30 chỗ, … ) cho quý khách hàng có nhu cầu tham quan du lịch có thời gian thoả thuận theo nhu cầu của khách hàng. Dịch vụ hỗ trợ tham quan ở các địa điểm du lịch nổi tiếng ví dụ như: Long Khánh đi Đà Lạt, Long Khánh đi Vũng Tàu, Long Khánh đi Hồ Trị An, Long Khánh đi Mũi Né, Long Khánh đi Nha Trang Long Khánh đi Phan Thiết, …',
+        'description-second':
+          'Với mức giá cước hợp lý rõ ràng Đội taxi - Taxi Long Khánh giá rẻ chúng tôi đảm bảo đem lại giá trị tiết kiệm tối ưu chi phí tiết kiệm cho khách hàng và đem lại trải nghiệm tuyệt vời với khách hàng.',
+        image: IMAGE_BASE_URL + '4-chiec-taxi.webp',
+      },
+      {
+        subtitle: 'Giá cước dịch vụ tham quan du lịch.',
+        'description-first':
+          'Giá cước dịch vụ chúng tôi tuỳ vào tình hình thực tế (bao gồm:loại xe, giá xăng, ngày lễ, tết,…). Bên cạnh đó khi quý khách hàng đặt lịch đi trên 40km quý khách sẽ được áp dụng giảm 10% cước cơ bản, được miễn phí cầu đường và đảm bảo không phát sinh thêm.',
+        'description-second':
+          'Quý khách hàng vui lòng liện hệ với hotline 0779.942.463 để được thoả thuận cũng như tư vấn về dịch vụ của chúng tôi. Xin chân thành cảm ơn quý khách hàng!',
+        image: IMAGE_BASE_URL + 'Thue-xe-du-lich.webp',
+      },
+    ],
+  },
+  
 ]
 module.exports = newsDetail

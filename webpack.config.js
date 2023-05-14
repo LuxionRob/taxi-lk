@@ -33,6 +33,8 @@ const config = {
         { from: 'src/public/icons', to: 'static/icons' },
         { from: 'src/public/js', to: 'static/js' },
         { from: 'src/resources', to: 'static/resources' },
+        { from: 'src/public/sitemap.xml', to: 'static/sitemap.xml' },
+        { from: 'src/public/robots.txt', to: 'static/robots.txt' },
       ],
     }),
   ],
