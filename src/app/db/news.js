@@ -67,7 +67,7 @@ function newsData() {
       date: '12/05/2023',
       view: '23',
       description:
-      'Đội Taxi Long Khánh - TP.Hồ Chí Minh hoạt động 24/7 kễ và các ngày lễ tết. Cung cấp các dịch vụ đưa đón khánh hàng tại tp Long Khánh...',
+        'Đội Taxi Long Khánh - TP.Hồ Chí Minh hoạt động 24/7 kễ và các ngày lễ tết. Cung cấp các dịch vụ đưa đón khánh hàng tại tp Long Khánh...',
       image: IMAGE_BASE_URL + 'benh-vien-tphcm.webp',
     },
     {
@@ -75,8 +75,16 @@ function newsData() {
       date: '14/05/2023',
       view: '21',
       description:
-      'Đội taxi - Taxi Long Khánh giá rẻ cung cấp dịch vụ thuê xe du lịch tham quan với các loại xe 4 chỗ, 7 chỗ, ô tô du lịch (16 chỗ, 30 chỗ, … ) ',
+        'Đội taxi - Taxi Long Khánh giá rẻ cung cấp dịch vụ thuê xe du lịch tham quan với các loại xe 4 chỗ, 7 chỗ, ô tô du lịch (16 chỗ, 30 chỗ, … ) ',
       image: IMAGE_BASE_URL + 'Thue-xe-du-lich.webp',
+    },
+    {
+      title: 'Thuê Xe Long Khánh Đi Hồ Tràm: Tìm Hiểu Về Các Loại Xe 4 Chỗ, 7 Chỗ và 16 Chỗ Giá Trọn Gói',
+      date: '15/05/2023',
+      view: '29',
+      description:
+        'Thuê Xe Biên Hoà Đi Hồ Tràm là một trong những dịch vụ thuê xe uy tín hàng đầu tại Việt Nam. Chúng tôi cung cấp các loại xe 4 chỗ, 7 chỗ và 16 chỗ ...',
+      image: IMAGE_BASE_URL + 'ho-tram-vung-tau.webp',
     },
   ]
 }

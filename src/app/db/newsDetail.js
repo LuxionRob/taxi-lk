@@ -334,6 +334,34 @@ const newsDetail = [
       },
     ],
   },
-  
+  {
+    title: 'Thuê Xe Long Khánh Đi Hồ Tràm: Tìm Hiểu Về Các Loại Xe 4 Chỗ, 7 Chỗ và 16 Chỗ Giá Trọn Gói',
+    date: '15/05/2023',
+    view: 29,
+    section: [
+      {
+        subtitle: 'Giới thiệu',
+        'description-first':
+          'Chúng tôi, đội taxi long khánh cung cấp các loại xe 4 chỗ, 7 chỗ và 16 chỗ để phục vụ nhu cầu di chuyển của khách hàng. Tất cả các xe đều được bảo trì kỹ lưỡng và được kiểm tra chất lượng trước khi sử dụng. Chúng tôi cũng cung cấp dịch vụ tài xế chuyên nghiệp và giàu kinh nghiệm để đảm bảo an toàn cho khách hàng.',
+      },
+      {
+        subtitle: 'Tìm Hiểu Về Thuê Xe 4 Chỗ Long Khánh Đi Hồ Tràm',
+        'description-first':
+          'Thuê xe 4 chỗ Long Khánh đi Hồ Tràm là một dịch vụ được cung cấp bởi các công ty vận tải hàng đầu tại Việt Nam. Dịch vụ này cung cấp cho khách hàng cơ hội để thuê xe 4 chỗ để đi đến Hồ Tràm, một trong những điểm du lịch nổi tiếng nhất ở Việt Nam.',
+        'description-second':
+          'Với dịch vụ thuê xe 4 chỗ Long Khánh đi Hồ Tràm, khách hàng sẽ được phục vụ bởi những lái xe chuyên nghiệp và nhiều kinh nghiệm. Những lái xe này sẽ giúp khách hàng đạt được mục tiêu của họ trong việc đi đến Hồ Tràm một cách an toàn và hiệu quả nhất.',
+        image: IMAGE_BASE_URL + 'cam-nang-du-lich-ho-tram-vung-tau.webp',
+      },
+      {
+        subtitle: 'Giá Cả Thuê đi Hồ Tràm của Đội taxi Long Khánh',
+        'description-first':
+          'Đội taxi Long Khánh là một dịch vụ thuê xe chuyên nghiệp và uy tín. Chúng tôi cung cấp các dịch vụ thuê xe 7 chỗ từ Biên Hoà đến Hồ Tràm với giá cả hợp lý.',
+        'description-second':
+          'Chúng tôi cung cấp các loại xe mới, an toàn và tiện nghi. Tất cả các xe đều được kiểm tra kỹ trước khi sử dụng để đảm bảo an toàn cho khách hàng. Ngoài ra, chúng tôi cũng cung cấp các dịch vụ thuê xe với lái xe để giúp khách hàng đi lại một cách dễ dàng và an toàn.',
+        'description-third':
+          'Chúng tôi cam kết cung cấp dịch vụ tốt nhất với giá cả hợp lý. Chúng tôi luôn sẵn sàng phục vụ khách hàng với lòng nhiệt tình và chuyên nghiệp. Hãy liên hệ với chúng tôi để biết thêm chi tiết về dịch vụ thuê xe đội taxi Long Khánh đi Hồ Tràm của chúng tôi.',
+      },
+    ],
+  },
 ]
 module.exports = newsDetail
